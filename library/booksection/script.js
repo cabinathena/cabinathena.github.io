@@ -161,6 +161,7 @@ function displayReturnForm() {
       book: $('#return-book-name').val(),
       returnDate: moment(new Date()).format('DD MMM YYYY')
     });
+    console.log(`Pre: ${JSON.stringify(returnEntry)}`);
 
     let docRef = db.collection(COLLECTION_ID)
       .withConverter(returnConverter)
@@ -170,9 +171,11 @@ function displayReturnForm() {
       return transaction
         .get(docRef)
         .then((doc) => {
+          console.log('Pre transaction');
           transaction.update(docRef, {
             entries: firebase.firestore.FieldValue.arrayUnion(returnEntry.toObject())
           })
+          console.log('Post transaction')
         });
     }).then(() => {
       alert('Book returned');
@@ -301,9 +304,6 @@ function displayRentForm() {
 $('.main-navigation a').on('click', function () {
   $('.main-container').addClass('nav-menu-open');
   $('.main-overlay').fadeIn();
-
-  $('#rent').on('click', displayRentForm);
-  $('#return').on('click', displayReturnForm);
 });
 
 // Close Offcanvas Menu

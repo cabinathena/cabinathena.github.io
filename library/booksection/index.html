@@ -110,41 +110,6 @@
         <!-- /main -->
 
         <div class="main-overlay">
-
-            <!-- <form class="return-form hidden">
-                <div class="return-form-title">RETURN BOOK</div>
-                <div class="row">
-                    <div class="columns medium-6">
-                        <label>First Name
-                            <input type="text" id="return-first-name">
-                        </label>
-                    </div>
-                    <div class="columns medium-6">
-                        <label>Last Name
-                            <input type="text" id="return-last-name">
-                        </label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="columns">
-                        <label>Book Name
-                            <input type="text" id="return-book-name" />
-                        </label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="columns">
-                        <label for="return-book-card">Upload Membership Card</label>
-                        <input type="file" id="return-book-card" accept="image/*"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="columns">
-                        <button class="button">RETURN</button>
-                    </div>
-                </div>
-            </form> -->
-
             <div class="overlay-full"></div>
         </div>
 
@@ -178,6 +143,12 @@
     <script src="./books.js"></script>
     <script src="./script.js"></script>
     <script src="./db.js"></script>
+    <script>
+        window.onload = () => {
+            $('#rent').on('click', displayRentForm);
+            $('#return').on('click', displayReturnForm);
+        }
+    </script>
 
 </body>
 

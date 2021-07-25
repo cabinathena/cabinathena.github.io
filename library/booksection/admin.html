@@ -84,4 +84,13 @@
         var db = firebase.firestore();
     </script>
     <script src="./db.js"></script>
+    <script>
+        window.onload = () => asyncDbLoad(snapshots => {
+            rentEntries = snapshots[0].data();
+            returnEntries = snapshots[1].data();
+
+            renderRentTable(rentEntries);
+            renderReturnTable(returnEntries);
+        });
+    </script>
 </body>

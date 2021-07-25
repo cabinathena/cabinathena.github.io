@@ -60,65 +60,6 @@ const COLLECTION_ID = 'library';
 const RENT_ID = 'rent';
 const RETURN_ID = 'return';
 
-function newRent() {
-    var rentEntry = new RentEntry({
-        firstName: $('#rent-first-name').val(),
-        lastName: $('#rent-last-name').val(),
-        cabin: $('#rent-cabin').val(),
-        book: $('#rent-book-name').val(),
-        startDate: $('#rent-date').val().split(' - ')[0],
-        endDate: $('#rent-date').val().split(' - ')[1],
-    });
-
-    let docRef = db.collection(COLLECTION_ID)
-        .withConverter(rentConverter)
-        .doc(RENT_ID);
-
-    return db.runTransaction((transaction) => {
-        return transaction
-            .get(docRef)
-            .then((doc) => {
-                transaction.update(docRef, {
-                    entries: firebase.firestore.FieldValue.arrayUnion(rentEntry.toObject())
-                })
-            });
-    }).then(() => {
-        console.log("Data appended successfully");
-    }).catch((error) => {
-        console.log("Error: " + error);
-        alert(`Error: ${error}`);
-    })
-}
-
-function newReturn() {
-    var returnEntry = new ReturnEntry({
-        firstName: $('#return-first-name').val(),
-        lastName: $('#return-last-name').val(),
-        cabin: $('#return-cabin').val(),
-        book: $('#return-book-name').val(),
-        returnDate: moment(new Date()).format('DD MMM YYYY')
-    });
-
-    let docRef = db.collection(COLLECTION_ID)
-        .withConverter(returnConverter)
-        .doc(RETURN_ID);
-
-    return db.runTransaction((transaction) => {
-        return transaction
-            .get(docRef)
-            .then((doc) => {
-                transaction.update(docRef, {
-                    entries: firebase.firestore.FieldValue.arrayUnion(returnEntry.toObject())
-                })
-            });
-    }).then(() => {
-        console.log("Data appended successfully");
-    }).catch((error) => {
-        console.log("Error: " + error);
-        alert(`Error: ${error}`);
-    });
-}
-
 var rentEntries = [];
 var returnEntries = [];
 
@@ -155,14 +96,6 @@ function asyncDbLoad(callback) {
             callback(snapshots);
         });
 }
-
-window.onload = () => asyncDbLoad(snapshots => {
-    rentEntries = snapshots[0].data();
-    returnEntries = snapshots[1].data();
-
-    renderRentTable(rentEntries);
-    renderReturnTable(returnEntries);
-});
 
 function renderRentTable(rentEntries) {
     $('#rent-table').DataTable({
