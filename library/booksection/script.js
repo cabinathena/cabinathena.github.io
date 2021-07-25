@@ -141,7 +141,7 @@ function displayReturnForm() {
           </div>
       </div>
       <div class="row">
-          <div class="columns">
+          <div class="columns" style="width: 100%; text-align: center;">
               <button class="button" id="return-submit">RETURN</button>
           </div>
       </div>
@@ -239,7 +239,7 @@ function displayRentForm() {
           </div>
       </div>
       <div class="row">
-          <div class="columns">
+          <div class="columns" style="width: 100%; text-align: center;">
               <button class="button" id="rent-submit">SUBMIT</button>
           </div>
       </div>
