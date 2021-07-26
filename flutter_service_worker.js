@@ -7,16 +7,17 @@ const RESOURCES = {
 "assets/assets/bg-logo-padded.png": "b791bf00b072430a7c8e9d6013a7636e",
 "assets/assets/bg-logo.png": "f412fcd510b4ca20721e9142d19fca26",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "ea6c364239b8ebd8036642a1a0b9606d",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "46de45c8139db37961c3e9d3898bc63e",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "04f73967f662657aaaa06864f3708797",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "e3ba1c21c52fc287e7280e49799e81cc",
-"/": "e3ba1c21c52fc287e7280e49799e81cc",
-"main.dart.js": "a3cf3c8594aeccf415c6fa8c2af02442",
+"index.html": "f8b3701f133e961901bdee86c3613bd3",
+"/": "f8b3701f133e961901bdee86c3613bd3",
+"main.dart.js": "b3eea98e3af5527603f7e782ae6a6510",
 "manifest.json": "2e53a91a94284398ce7c41360870f919",
+"script.js": "320f2b6c0852b8c6ba7107fa19eec7e6",
 "version.json": "03dabba014a8b9cd4e8e49d8146ef9ed"
 };
 
@@ -35,7 +36,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });

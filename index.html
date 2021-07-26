@@ -36,10 +36,13 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=2556946650');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3872232821');
       });
     }
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
   <script>
@@ -53,7 +56,9 @@
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
   </script>
+  <script src="script.js" defer></script>
   <script src="./main.dart.js" type="application/javascript"></script>
 </body>
 </html>
