@@ -383,7 +383,21 @@ function toggleNavBar() {
 
 window.onload = () => {
 
-    menuButton.onclick = toggleNavBar
+    // menuButton.onclick = toggleNavBar
 
 	init();
+
+    let vid = document.querySelector('#transition');
+    vid.onended = () => {
+        location.href = './booksection/index.html';
+    }
+
+    let toBookSection = document.querySelector('#to-booksection');
+    toBookSection.onclick = () => {
+        // stage.classList.add('hidden');
+        // vid.classList.remove('hidden');
+        // vid.play();
+
+        location.href = './booksection/index.html';
+    }
 };

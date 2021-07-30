@@ -9,10 +9,13 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+<video id="transition" class="hidden" preload="auto">
+    <source src="video.mp4" type="video/mp4">
+</video>
 <div class="stage">
     <header class="header">
         <div class="logo">Cabin Athena</div>
-        <div class="nav-btn">
+        <div class="nav-btn hidden">
             <svg class="nav-btn__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 30">
                 <rect class="nav-rect" width="40" height="2" x="8" y="8" fill="#242423"/>
                 <rect class="nav-rect" width="40" height="2" x="8" y="14" fill="#242423"/>
@@ -26,6 +29,13 @@
             <li onclick="scrollToIndex(3)">Review Section</li>
             <li onclick="scrollToIndex(4)">Podcast Section</li>
         </ul>
+        <div class="navbar">
+            <div class="right-border" onclick="scrollToIndex(0)">Home</div>
+            <div class="right-border" onclick="scrollToIndex(1)">Visitor Section</div>
+            <div class="right-border" onclick="scrollToIndex(2)">Book Section</div>
+            <div class="right-border" onclick="scrollToIndex(3)">Review Section</div>
+            <div onclick="scrollToIndex(4)">Podcast Section</div>
+        </div>
     </header>
     
     <section class="intro slide--0" id="slide-0">
@@ -70,7 +80,7 @@
                 <h2 class="col__content-title"><span class="line__inner">Book</span><br /><span class="line__inner">Section</span></h2>
                 <div class="col__content-wrap">
                     <p class="col__content-txt">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod.</p>
-                    <a href="https://cabinathena.github.io/library/booksection" class="slide-link">
+                    <a class="slide-link" id="to-booksection" href="#">
                         <div class="slide-link__circ"></div>
                         <div class="slide-link__line"></div>
                     </a>

@@ -48,12 +48,13 @@ p {
     ========================================================================== */
 .header {
   position: fixed;
-  width: 300px;
-  left: 40px;
-  top: 24px;
+  width: 100%;
+  padding: 16px 0 16px 40px;
   z-index: 100;
   display: flex;
   flex-wrap: wrap;
+  background: #EDE6E0;
+  align-items: center;
 }
 @media all and (max-width: 768px) {
   .header {
@@ -86,6 +87,26 @@ p {
 
 .nav-btn__svg {
   pointer-events: none;
+}
+
+div.navbar {
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+div.navbar div {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline;
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+  padding: 0px 16px;
+}
+div.navbar div:hover {
+  font-weight: bold;
+}
+div.navbar div.right-border {
+  border-right: 1px solid black;
 }
 
 .dropdown {
@@ -549,4 +570,16 @@ ul.dropdown li:hover {
   left: 50%;
   bottom: 24px;
   transform: translateX(-50%);
+}
+
+.hidden {
+  display: none;
+}
+
+#transition {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
