@@ -297,6 +297,66 @@ function displayRentForm() {
   });
 }
 
+function displayRequestForm() {
+  $('.main-container').removeClass('nav-menu-open');
+  $('.main-overlay').prepend(`
+  <form class="request-form hidden">
+      <div class="request-form-title">REQUEST BOOK FORM</div>
+      <div class="row">
+          <div class="columns medium-6">
+              <label>First Name
+                  <input type="text" id="request-first-name">
+              </label>
+          </div>
+          <div class="columns medium-6">
+              <label>Last Name
+                  <input type="text" id="request-last-name">
+              </label>
+          </div>
+      </div>
+      <div class="row">
+          <div class="columns">
+              <label>Cabin
+                  <select id="request-cabin">
+                      <option value="Aphrodite">Aphrodite</option>
+                      <option value="Apollo">Apollo</option>
+                      <option value="Ares">Ares</option>
+                      <option value="Athena">Athena</option>
+                      <option value="Demeter">Demeter</option>
+                      <option value="Dionysus">Dionysus</option>
+                      <option value="Hephaestus">Hephaestus</option>
+                      <option value="Hermes">Hermes</option>
+                  </select>
+              </label>
+          </div>
+      </div>
+      <div class="row">
+          <div class="columns">
+              <label>Book Title
+                  <input type="text" id="request-book-title" />
+              </label>
+          </div>
+      </div>
+      <div class="row">
+          <div class="columns">
+              <label>Author
+                  <input type="text" id="request-book-author" />
+              </label>
+          </div>
+      </div>
+      <div class="row">
+          <div class="columns" style="width: 100%; text-align: center;">
+              <button class="button" id="request-submit">REQUEST BOOK</button>
+          </div>
+      </div>
+  </form>
+  `);
+
+  $this = $('.request-form');
+  $this.removeClass('hidden');
+  $this.fadeIn();
+}
+
 /*
  *  Offcanvas Menu
  */
@@ -313,12 +373,12 @@ $('#close-nav').on('click', closeOverlay);
 function closeOverlay() {
   $('.main-container').removeClass('nav-menu-open');
   $('.main-container').removeClass('prevent-scroll');
-  console.log($(this).parent().attr('id'));
-
+  
   $('.main-overlay').fadeOut();
   $('.main-overlay').find('.overlay-details').remove();
   $('.main-overlay').find('.rent-form').remove();
   $('.main-overlay').find('.return-form').remove();
+  $('.main-overlay').find('.request-form').remove();
 }
 
 /*

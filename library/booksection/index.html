@@ -21,6 +21,7 @@
             <ul>
                 <li><a class="" href="#" id="rent">Rent</a></li>
                 <li><a class="" href="#" id="return">Return</a></li>
+                <li><a class="" href="#" id="request">Request</a></li>
                 <li><a class="" href="#" id="close-nav">Back</a></li>
             </ul>
         </nav>
@@ -110,6 +111,7 @@
         <!-- /main -->
 
         <div class="main-overlay">
+            
             <div class="overlay-full"></div>
         </div>
 
@@ -145,8 +147,9 @@
     <script src="./db.js"></script>
     <script>
         window.onload = () => {
-            $('#rent').on('click', displayRentForm);
-            $('#return').on('click', displayReturnForm);
+            $('#rent').click(displayRentForm);
+            $('#return').click(displayReturnForm);
+            $('#request').click(displayRequestForm);
         }
     </script>
 
