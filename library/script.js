@@ -383,7 +383,7 @@ function toggleNavBar() {
 
 window.onload = () => {
 
-    // menuButton.onclick = toggleNavBar
+    menuButton.onclick = toggleNavBar;
 
 	init();
 
