@@ -14,6 +14,7 @@ const stage = select('.stage');
 const slides = selectAll(".slide");
 const links = selectAll(".slide__scroll-link");
 const titles = selectAll('.col__content-title');
+const overlay = select('.overlay');
 // const introTitle = new SplitText('.intro__title', {type: "lines", linesClass: "intro-line"});
 // const splitTitles = new SplitText(titles, {type: "lines, chars", linesClass: "line", charsClass: "char", position: "relative" });
 let slideID = 0;
@@ -382,6 +383,29 @@ function toggleNavBar() {
     }
 }
 
+let libWings = [
+    {
+        name: "West Wing",
+        img: "../assets/lib-section-1.jpg",
+        description: "Contains some Mediteranian books"
+    },
+    {
+        name: "East Wing",
+        img: "../assets/lib-section-2.jpg",
+        description: "Contains some Asian books"
+    },
+    {
+        name: "North Wing",
+        img: "../assets/lib-section-3.jpg",
+        description: "Contains some Russian books"
+    },
+    {
+        name: "South Wing",
+        img: "../assets/lib-section-4.jpg",
+        description: "Contains some African books"
+    }
+];
+
 window.onload = () => {
 
     menuButton.onclick = toggleNavBar;
@@ -401,4 +425,20 @@ window.onload = () => {
 
         location.href = './booksection/index.html';
     }
+
+
+    select('.overlay-wing-content').addEventListener('click', e => e.stopPropagation());
+
+    overlay.addEventListener('click', (e) => overlay.style.height = "0%");
+
+    selectAll('.grid-img-container').forEach((elm, i) => {
+        elm.onclick = () => {
+            overlay.style.height = "100%";
+            select('.wing-img').src = libWings[i].img;
+            select('.wing-title').innerText = libWings[i].name;
+            select('.wing-desc').innerText = libWings[i].description;
+        }
+    });
 };
+
+let evt;
