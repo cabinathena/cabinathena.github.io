@@ -13,56 +13,59 @@
 </head>
 
 <body>
-    <div class="row full">
-        <div class="columns large-6">
-            <div class="rent-table-title">RENT BOOK</div>
-            <table id="rent-table">
-                <thead>
-                    <tr>
-                        <th>Last Name</th>
-                        <th>First Name</th>
-                        <th>Cabin</th>
-                        <th>Book Title</th>
-                        <th>Start Date</th>
-                        <th>End Date</th>
-                    </tr>
-                </thead>
-                <tfoot>
-                    <tr>
-                        <th>Last Name</th>
-                        <th>First Name</th>
-                        <th>Cabin</th>
-                        <th>Book Title</th>
-                        <th>Start Date</th>
-                        <th>End Date</th>
-                    </tr>
-                </tfoot>
-            </table>
+    <div class="tabs-content" data-tabs-content="admin-tabs">
+        <div class="row full" id="rent-return-tab-content">
+            <div class="columns large-6">
+                <div class="rent-table-title">RENT BOOK</div>
+                <table id="rent-table">
+                    <thead>
+                        <tr>
+                            <th>Last Name</th>
+                            <th>First Name</th>
+                            <th>Cabin</th>
+                            <th>Book Title</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Last Name</th>
+                            <th>First Name</th>
+                            <th>Cabin</th>
+                            <th>Book Title</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="columns large-6">
+                <div class="return-table-title">RETURN</div>
+                <table id="return-table">
+                    <thead>
+                        <tr>
+                            <th>Last Name</th>
+                            <th>First Name</th>
+                            <th>Cabin</th>
+                            <th>Book Title</th>
+                            <th>Return Date</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Last Name</th>
+                            <th>First Name</th>
+                            <th>Cabin</th>
+                            <th>Book Title</th>
+                            <th>Return Date</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
         </div>
 
-        <div class="columns large-6">
-            <div class="return-table-title">RETURN</div>
-            <table id="return-table">
-                <thead>
-                    <tr>
-                        <th>Last Name</th>
-                        <th>First Name</th>
-                        <th>Cabin</th>
-                        <th>Book Title</th>
-                        <th>Return Date</th>
-                    </tr>
-                </thead>
-                <tfoot>
-                    <tr>
-                        <th>Last Name</th>
-                        <th>First Name</th>
-                        <th>Cabin</th>
-                        <th>Book Title</th>
-                        <th>Return Date</th>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>
     </div>
 
     <script type="text/javascript" src="https://cdn.datatables.net/v/zf/jq-3.3.1/dt-1.10.25/datatables.min.js"></script>
@@ -85,12 +88,15 @@
     </script>
     <script src="./db.js"></script>
     <script>
+        $('#admin-tabs').on('change.zf.tabs', function() {});
+
         window.onload = () => asyncDbLoad(snapshots => {
             rentEntries = snapshots[0].data();
             returnEntries = snapshots[1].data();
 
             renderRentTable(rentEntries);
             renderReturnTable(returnEntries);
+
         });
     </script>
 </body>

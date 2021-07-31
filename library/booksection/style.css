@@ -905,3 +905,7 @@ div.ui-state-active {
   margin-top: 40px;
   margin-bottom: 30px;
 }
+
+div.tabs-content {
+  background: unset;
+}

@@ -252,8 +252,8 @@ const books = [
         preview: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus nisi, eget pulvinar in, molestie et arcu.",
         synopsis: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.",
         cover: {
-            small: "https://grimmwoods.com/wp-content/uploads/2016/10/rapunzel-image-2.jpg",
-            large: "https://grimmwoods.com/wp-content/uploads/2016/10/rapunzel-image-2.jpg"
+            small: "https://d3myrwj42s63no.cloudfront.net/300/155/858/684/9/1558586849.jpg",
+            large: "https://d3myrwj42s63no.cloudfront.net/300/155/858/684/9/1558586849.jpg"
         },
         contents: [
             {

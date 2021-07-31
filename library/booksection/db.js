@@ -56,9 +56,38 @@ var returnConverter = {
     }
 }
 
+class RequestEntry {
+    constructor(entry) {
+        this.firstName = entry.firstName;
+        this.lastName = entry.lastName;
+        this.cabin = entry.cabin;
+        this.book = entry.book;
+        this.author = entry.author;
+    }
+
+    toObject() {
+        return {
+            firstName: this.firstName,
+            lastName: this.lastName,
+            cabin: this.cabin,
+            book: this.book,
+            author: this.author
+        };
+    }
+}
+
+var requestConverter = {
+    toFirestore: (requestEntry) => requestEntry.toObject(),
+    fromFirestore: function (snapshot, options) {
+        let list = snapshot.data(options).entries;
+        return list.map(entry => new RequestEntry(entry));
+    }
+}
+
 const COLLECTION_ID = 'library';
 const RENT_ID = 'rent';
 const RETURN_ID = 'return';
+const REQUEST_ID = 'request';
 
 var rentEntries = [];
 var returnEntries = [];

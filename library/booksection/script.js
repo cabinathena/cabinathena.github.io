@@ -153,7 +153,10 @@ function displayReturnForm() {
   $this.fadeIn();
 
   $('#return-book-name').autocomplete({ source: bookTitles });
-  $('#return-submit').click(function () {
+  $('#return-submit').on('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+
     var returnEntry = new ReturnEntry({
       firstName: $('#return-first-name').val(),
       lastName: $('#return-last-name').val(),
@@ -167,7 +170,7 @@ function displayReturnForm() {
       .withConverter(returnConverter)
       .doc(RETURN_ID);
 
-    return db.runTransaction((transaction) => {
+    db.runTransaction((transaction) => {
       return transaction
         .get(docRef)
         .then((doc) => {
@@ -184,6 +187,8 @@ function displayReturnForm() {
       console.log("Error: " + error);
       alert(`Error: ${error}`);
     })
+
+    return false;
   });
 }
 
@@ -265,7 +270,10 @@ function displayRentForm() {
     console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
   });
   $('#rent-book-name').autocomplete({ source: bookTitles });
-  $('#rent-submit').click(() => {
+  $('#rent-submit').on('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+
     var rentEntry = new RentEntry({
       firstName: $('#rent-first-name').val(),
       lastName: $('#rent-last-name').val(),
@@ -279,7 +287,7 @@ function displayRentForm() {
       .withConverter(rentConverter)
       .doc(RENT_ID);
 
-    return db.runTransaction((transaction) => {
+    db.runTransaction((transaction) => {
       return transaction
         .get(docRef)
         .then((doc) => {
@@ -294,6 +302,8 @@ function displayRentForm() {
       console.log("Error: " + error);
       alert(`Error: ${error}`);
     })
+
+    return false;
   });
 }
 
@@ -355,6 +365,44 @@ function displayRequestForm() {
   $this = $('.request-form');
   $this.removeClass('hidden');
   $this.fadeIn();
+
+  $('#request-submit').on('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    var requestEntry = new RequestEntry({
+      firstName: $('#request-first-name').val(),
+      lastName: $('#request-last-name').val(),
+      cabin: $('#request-cabin').val(),
+      book: $('#request-book-title').val(),
+      author: $('#request-book-author').val()
+    });
+    console.log(`Pre: ${JSON.stringify(requestEntry)}`);
+
+    let docRef = db.collection(COLLECTION_ID)
+      .withConverter(requestConverter)
+      .doc(REQUEST_ID);
+
+    db.runTransaction((transaction) => {
+      return transaction
+        .get(docRef)
+        .then((doc) => {
+          console.log('Pre transaction');
+          transaction.update(docRef, {
+            entries: firebase.firestore.FieldValue.arrayUnion(requestEntry.toObject())
+          })
+          console.log('Post transaction')
+        });
+    }).then(() => {
+      alert('Book requested');
+      closeOverlay();
+    }).catch((error) => {
+      console.log("Error: " + error);
+      alert(`Error: ${error}`);
+    });
+
+    return false;
+  });
 }
 
 /*
