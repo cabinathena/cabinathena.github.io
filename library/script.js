@@ -339,9 +339,9 @@ function scrollToIndex(index) {
 
 function initKeys() {
     document.addEventListener('keydown', (e) => {
-        e.preventDefault();
-        if(event.keyCode == 40) { //down arrow to next slide
-            if(slideID <= slides.length) {
+        if (e.key == 'ArrowDown') { // down arrow to next slide
+            e.preventDefault();
+            if (slideID <= slides.length) {
                 slideID++;
                 gsap.to(window, {
                     duration: 2, 
@@ -352,7 +352,8 @@ function initKeys() {
                 });
             }
         }
-        else if(event.keyCode == 38) { // up arrow to top
+        else if (e.key == 'ArrowUp') { // up arrow to top
+            e.preventDefault();
             slideID = 0;
             scrollTop();
         }
