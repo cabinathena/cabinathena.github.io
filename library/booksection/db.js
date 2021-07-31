@@ -91,6 +91,7 @@ const REQUEST_ID = 'request';
 
 var rentEntries = [];
 var returnEntries = [];
+var requestEntries = [];
 
 function checkRentEntries() {
     db.collection(COLLECTION_ID)
@@ -120,7 +121,11 @@ function asyncDbLoad(callback) {
         .withConverter(returnConverter)
         .doc(RETURN_ID).get();
 
-    Promise.all([rentPromise, returnPromise])
+    let requestPromise = db.collection(COLLECTION_ID)
+        .withConverter(requestConverter)
+        .doc(REQUEST_ID).get();
+
+    Promise.all([rentPromise, returnPromise, requestPromise])
         .then(snapshots => {
             callback(snapshots);
         });
@@ -151,6 +156,20 @@ function renderReturnTable(returnEntries) {
             { data: 'cabin' },
             { data: 'book' },
             { data: 'returnDate' }
+        ]
+    });
+}
+
+function renderRequestTable(requestEntries) {
+    $('#request-table').DataTable({
+        paging: false,
+        data: requestEntries,
+        columns: [
+            { data: 'lastName' },
+            { data: 'firstName' },
+            { data: 'cabin' },
+            { data: 'book' },
+            { data: 'author' }
         ]
     });
 }

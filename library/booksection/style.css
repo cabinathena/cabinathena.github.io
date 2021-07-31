@@ -672,7 +672,8 @@ a.button:hover, a.button:focus {
 .return-form button:hover, .rent-form button:hover, .request-form button:hover {
   background-color: #7b6d65;
 }
-.rent-form input, .return-form input, .rent-form select, .return-form select, .request-form select {
+.rent-form input, .return-form input, .request-form input,
+.rent-form select, .return-form select, .request-form select {
   font-family: "Noto Sans", sans-serif;
 }
 .main-overlay .overlay-image {
@@ -897,7 +898,7 @@ div.ui-state-active {
   max-width: 100% !important;
 }
 
-.rent-table-title, .return-table-title {
+.rent-table-title, .return-table-title, .request-table-title {
   width: 100%;
   text-align: center;
   font-size: 150%;
