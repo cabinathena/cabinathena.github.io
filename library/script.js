@@ -394,6 +394,7 @@ function toggleNavBar() {
 }
 
 let libWings = [
+    // Wing Section
     {
         name: "West Wing",
         img: "../assets/lib-section-1.jpg",
@@ -413,7 +414,28 @@ let libWings = [
         name: "South Wing",
         img: "../assets/lib-section-4.jpg",
         description: "Non-fiction Section 02: this aisle is housing </br> Journalistic writing, Reference work, Self-help, and Travel books."
-    }
+    },
+    // Reading Rooms
+    {
+        name: "West Wing Reading Room",
+        img: "../assets/lib-read-1.jpg",
+        description: ""
+    },
+    {
+        name: "East Wing Reading Room",
+        img: "../assets/lib-read-2.jpg",
+        description: ""
+    },
+    {
+        name: "North Wing Reading Room",
+        img: "../assets/lib-read-3.jpg",
+        description: ""
+    },
+    {
+        name: "South Wing Reading Room",
+        img: "../assets/lib-read-4.jpg",
+        description: ""
+    },
 ];
 
 window.onload = () => {
