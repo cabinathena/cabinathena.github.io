@@ -5,8 +5,6 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollToPlugin);
 // gsap.registerPlugin(SplitText);
 
-console.clear();
-
 select = e => document.querySelector(e);
 selectAll = e => document.querySelectorAll(e);
 
@@ -75,12 +73,13 @@ function initIntro() {
     
     let tl = gsap.timeline({delay: 1.2});
     
-    tl.from('.intro-line', {
-        // x: 100,
-        y: 400,
-        ease: 'power4',
-        duration: 3
-    })
+    tl
+    // .from('.intro-line', {
+    //     // x: 100,
+    //     y: 400,
+    //     ease: 'power4',
+    //     duration: 3
+    // })
     .from('.intro__txt', {
         x: -100,
         opacity: 0,
@@ -124,6 +123,16 @@ function initIntro() {
         ease: 'power4.in',
         duration: 3,
     }, 0);
+}
+
+function initRules() {
+    let tl = gsap.timeline({delay: 1.2});
+    tl.from('#rules', {
+        x: 400,
+        opacity: 0,
+        ease: 'power4',
+        duration: 2
+    }, 0.7);
 }
 
 function initLinks() {
@@ -365,6 +374,7 @@ function init() {
     gsap.set(stage, { autoAlpha: 1 });
     initHeader();
     initIntro();
+    initRules();
 	initLinks();
 	initSlides();
 	initParallax();
