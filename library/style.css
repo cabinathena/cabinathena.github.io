@@ -512,11 +512,38 @@ ul.dropdown li:hover {
   background: #D7CEC5;
 }
 
+#rules {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
 #slide-1 {
+  background-color: #988478;
+}
+#slide-1 ul {
+  padding-right: 40px;
+  font-family: "Cinzel", serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+#slide-1 ul li {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+#slide-1 ul.donts {
+  font-family: "Cinzel", serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+#slide-2 {
+  background: #EDE6E0;
   padding: 80px 40px;
 }
 
-#slide-1 .slide-1-contents {
+#slide-2 .slide-2-contents {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
@@ -524,7 +551,7 @@ ul.dropdown li:hover {
   margin: 0 auto;
 }
 
-.slide-1-subtitle {
+.slide-2-subtitle {
   font-size: 5vw;
   font-family: "Cinzel", serif;
   font-weight: 590;
