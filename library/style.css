@@ -572,7 +572,7 @@ ul.dropdown li:hover {
 
 .grid-img-container {
   width: calc(50% - 40px);
-  height: calc(50% - 80px);
+  height: calc(50% - 100px);
   margin: 20px;
   cursor: pointer;
   overflow: hidden;
