@@ -429,11 +429,11 @@ window.onload = () => {
 
     select('.overlay-wing-content').addEventListener('click', e => e.stopPropagation());
 
-    overlay.addEventListener('click', (e) => overlay.style.height = "0%");
+    overlay.addEventListener('click', (e) => $('.overlay').fadeOut());
 
     selectAll('.grid-img-container').forEach((elm, i) => {
         elm.onclick = () => {
-            overlay.style.height = "100%";
+            $('.overlay').fadeIn();
             select('.wing-img').src = libWings[i].img;
             select('.wing-title').innerText = libWings[i].name;
             select('.wing-desc').innerHTML = libWings[i].description;
