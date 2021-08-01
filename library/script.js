@@ -387,22 +387,22 @@ let libWings = [
     {
         name: "West Wing",
         img: "../assets/lib-section-1.jpg",
-        description: "Fiction Section 01: this aisle is housing Action & Adventure, Crime & Mystery, and Fantasy books."
+        description: "Fiction Section 01: this aisle is housing </br> Action & Adventure, Crime & Mystery, and Fantasy books."
     },
     {
         name: "East Wing",
         img: "../assets/lib-section-2.jpg",
-        description: "Fiction Section 02: this aisle is housing Horror, Romance, and Science Fiction books."
+        description: "Fiction Section 02: this aisle is housing </br> Horror, Romance, and Science Fiction books."
     },
     {
         name: "North Wing",
         img: "../assets/lib-section-3.jpg",
-        description: "Non-fiction Section 01: this aisle is housing Academic, Bibliography, Biography, and Essay books."
+        description: "Non-fiction Section 01: this aisle is housing </br> Academic, Bibliography, Biography, and Essay books."
     },
     {
         name: "South Wing",
         img: "../assets/lib-section-4.jpg",
-        description: "Non-fiction Section 02: this aisle is housing Journalistic writing, Reference work, Self-help, and Travel books."
+        description: "Non-fiction Section 02: this aisle is housing </br> Journalistic writing, Reference work, Self-help, and Travel books."
     }
 ];
 
@@ -436,7 +436,7 @@ window.onload = () => {
             overlay.style.height = "100%";
             select('.wing-img').src = libWings[i].img;
             select('.wing-title').innerText = libWings[i].name;
-            select('.wing-desc').innerText = libWings[i].description;
+            select('.wing-desc').innerHTML = libWings[i].description;
         }
     });
 };
