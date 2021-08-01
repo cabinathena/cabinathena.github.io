@@ -387,22 +387,22 @@ let libWings = [
     {
         name: "West Wing",
         img: "../assets/lib-section-1.jpg",
-        description: "Contains some Mediteranian books"
+        description: "Fiction Section 01: this aisle is housing Action & Adventure, Crime & Mystery, and Fantasy books."
     },
     {
         name: "East Wing",
         img: "../assets/lib-section-2.jpg",
-        description: "Contains some Asian books"
+        description: "Fiction Section 02: this aisle is housing Horror, Romance, and Science Fiction books."
     },
     {
         name: "North Wing",
         img: "../assets/lib-section-3.jpg",
-        description: "Contains some Russian books"
+        description: "Non-fiction Section 01: this aisle is housing Academic, Bibliography, Biography, and Essay books."
     },
     {
         name: "South Wing",
         img: "../assets/lib-section-4.jpg",
-        description: "Contains some African books"
+        description: "Non-fiction Section 02: this aisle is housing Journalistic writing, Reference work, Self-help, and Travel books."
     }
 ];
 
