@@ -512,7 +512,7 @@ ul.dropdown li:hover {
   background: #D7CEC5;
 }
 
-#rules {
+.slide-in {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
@@ -520,21 +520,18 @@ ul.dropdown li:hover {
 #slide-1 {
   background-color: #988478;
 }
-#slide-1 ul {
+.slide-in ul {
   padding-right: 40px;
   font-family: "Cinzel", serif;
   font-size: 22px;
   font-weight: bold;
 }
-#slide-1 ul li {
+.slide-in ul li {
   font-family: "Noto Sans", sans-serif;
   font-size: 18px;
   font-weight: lighter;
 }
-#slide-1 ul.donts {
-  font-family: "Cinzel", serif;
-  font-size: 22px;
-  font-weight: bold;
+.slide-in ul.donts {
   margin-top: 80px;
 }
 

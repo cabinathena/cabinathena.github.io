@@ -74,12 +74,6 @@ function initIntro() {
     let tl = gsap.timeline({delay: 1.2});
     
     tl
-    // .from('.intro-line', {
-    //     // x: 100,
-    //     y: 400,
-    //     ease: 'power4',
-    //     duration: 3
-    // })
     .from('.intro__txt', {
         x: -100,
         opacity: 0,
@@ -127,12 +121,34 @@ function initIntro() {
 
 function initRules() {
     let tl = gsap.timeline({delay: 1.2});
-    tl.from('#rules', {
-        x: 400,
-        opacity: 0,
-        ease: 'power4',
-        duration: 2
-    }, 0.7);
+    let slideIns = selectAll('.slide-in');
+
+    slideIns.forEach((slide) => {
+        tl.from(slide, {
+            x: 400,
+            opacity: 0,
+            ease: 'power4',
+            duration: 2
+        }, 0.7);
+    });
+
+    // let stl = gsap.timeline({
+    //     scrollTrigger: {
+    //         trigger: '.slide-out-trigger',
+    //         scrub: 1,
+    //         start: "top bottom", // position of trigger meets the scroller position
+    //         end: "bottom top"
+    //     }
+    // });
+
+    // slideIns.forEach((slide) => {
+    //     stl.to(slide, {
+    //         x: 400,
+    //         y: "-50%",
+    //         ease: 'power4.in',
+    //         duration: 3,
+    //     }, 0);
+    // });
 }
 
 function initLinks() {
