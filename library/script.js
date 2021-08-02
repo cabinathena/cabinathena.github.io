@@ -412,43 +412,43 @@ function toggleNavBar() {
 let libWings = [
     // Wing Section
     {
-        name: "West Wing",
+        name: "Fiction Section 01",
         img: "../assets/lib-section-1.jpg",
-        description: "Fiction Section 01: this aisle is housing </br> Action & Adventure, Crime & Mystery, and Fantasy books."
+        description: "This aisle is housing </br> Action & Adventure, Crime & Mystery, and Fantasy books."
     },
     {
-        name: "East Wing",
+        name: "Fiction Section 02",
         img: "../assets/lib-section-2.jpg",
-        description: "Fiction Section 02: this aisle is housing </br> Horror, Romance, and Science Fiction books."
+        description: "This aisle is housing </br> Horror, Romance, and Science Fiction books."
     },
     {
-        name: "North Wing",
+        name: "Non-fiction Section 01",
         img: "../assets/lib-section-3.jpg",
-        description: "Non-fiction Section 01: this aisle is housing </br> Academic, Bibliography, Biography, and Essay books."
+        description: "This aisle is housing </br> Academic, Bibliography, Biography, and Essay books."
     },
     {
-        name: "South Wing",
+        name: "Non-fiction Section 02",
         img: "../assets/lib-section-4.jpg",
-        description: "Non-fiction Section 02: this aisle is housing </br> Journalistic writing, Reference work, Self-help, and Travel books."
+        description: "This aisle is housing </br> Journalistic writing, Reference work, </br> Self-help, and Travel books."
     },
     // Reading Rooms
     {
-        name: "West Wing Reading Room",
+        name: "West Wing",
         img: "../assets/lib-read-1.jpg",
         description: ""
     },
     {
-        name: "East Wing Reading Room",
+        name: "East Wing",
         img: "../assets/lib-read-2.jpg",
         description: ""
     },
     {
-        name: "North Wing Reading Room",
+        name: "North Wing",
         img: "../assets/lib-read-3.jpg",
         description: ""
     },
     {
-        name: "South Wing Reading Room",
+        name: "South Wing",
         img: "../assets/lib-read-4.jpg",
         description: ""
     },
