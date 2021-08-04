@@ -460,6 +460,8 @@ window.onload = () => {
 
 	init();
 
+    loadReview();
+
     let vid = document.querySelector('#transition');
     vid.onended = () => {
         location.href = './booksection/index.html';
@@ -474,14 +476,24 @@ window.onload = () => {
         location.href = './booksection/index.html';
     }
 
+    select('#review-button').onclick = () => {
+        $('.overlay').fadeIn();
+        $('.overlay-review').fadeIn();
+    }
 
     select('.overlay-wing-content').addEventListener('click', e => e.stopPropagation());
+    select('.overlay-review').addEventListener('click', e => e.stopPropagation());
 
-    overlay.addEventListener('click', (e) => $('.overlay').fadeOut());
+    overlay.addEventListener('click', (e) => {
+        $('.overlay').fadeOut();
+        $('.overlay-wing-content').fadeOut();
+        $('.overlay-review').fadeOut();
+    });
 
     selectAll('.grid-img-container').forEach((elm, i) => {
         elm.onclick = () => {
             $('.overlay').fadeIn();
+            $('.overlay-wing-content').fadeIn();
             select('.wing-img').src = libWings[i].img;
             select('.wing-title').innerText = libWings[i].name;
             select('.wing-desc').innerHTML = libWings[i].description;
@@ -489,4 +501,17 @@ window.onload = () => {
     });
 };
 
-let evt;
+function loadReview() {
+    db.collection('library')
+        .doc('review').get()
+        .then((doc) => {
+            let review = doc.data();
+            select('.review-title').innerHTML = review.title;
+            select('.review-content').innerHTML = review.content;
+            if (review.cover) {
+                select('.review-img').src = review.cover;
+            }
+
+            console.log('Review loaded');
+        });
+}
