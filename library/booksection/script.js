@@ -417,6 +417,7 @@ $('.main-navigation a').on('click', function () {
 // Close Offcanvas Menu
 $('.overlay-full').on('click', closeOverlay);
 $('#close-nav').on('click', closeOverlay);
+$('.close-nav-btn').on('click', closeOverlay);
 
 function closeOverlay() {
   $('.main-container').removeClass('nav-menu-open');

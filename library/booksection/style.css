@@ -334,7 +334,7 @@ a.button:hover, a.button:focus {
   right: 0;
   z-index: 100;
   visibility: visible;
-  width: 300px;
+  min-width: 300px;
   height: 100%;
   background: #A6958B;
   transition: all 0.5s;
@@ -395,6 +395,11 @@ a.button:hover, a.button:focus {
   height: 0;
   opacity: 0;
   transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+.nav-menu-schedule {
+  padding: 10px;
+  height: calc(100% - 112px);
+  overflow-y: scroll;
 }
 
 /*
@@ -909,4 +914,40 @@ div.ui-state-active {
 
 div.tabs-content {
   background: unset;
+}
+.bottom-border { border-bottom: 1px solid black; }
+.close-nav-btn {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.3;
+  text-indent: -9999px;
+  transition: opacity 250ms ease-out;
+}
+.close-nav-btn:hover {
+  opacity: 1;
+}
+.close-nav-btn:before {
+  content: " ";
+  position: absolute;
+  left: 15px;
+  width: 2px;
+  height: 33px;
+  background-color: #313131;
+}
+.close-nav-btn:after {
+  content: " ";
+  position: absolute;
+  left: 15px;
+  width: 2px;
+  height: 33px;
+  background-color: #313131;
+}
+.close-nav-btn:before {
+  transform: rotate(45deg);
+}
+.close-nav-btn:after {
+  transform: rotate(-45deg);
 }
