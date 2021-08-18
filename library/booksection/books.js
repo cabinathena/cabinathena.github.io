@@ -1,5 +1,137 @@
 const books = [
     {
+        title: "How To Behave in a Crowd",
+        author: "Camille Bordas",
+        year: "2017",
+        color: "#fcf4eb",
+        categories: [
+            "fiction", "young adult"
+        ],
+        preview: "When you care for yourself first, the world begins to find you worthy of care.",
+        synopsis: "Isidore Mazal is eleven years old, the youngest of six siblings living in a small French town. He doesn't quite fit in. Berenice, Aurore, and Leonard are on track to have doctorates by age twenty-four. Jeremie performs with a symphony, and Simone, older than Isidore by eighteen months, expects a great career as a novelist. She's already put Isidore to work on her biography. The only time they leave their rooms is to gather on the old, stained couch and dissect prime-time television dramas in light of Aristotle's Poetics. <br> <br> Isidore has never skipped a grade or written a dissertation, but he notices things the others don't and asks questions they fear to ask. So when tragedy strikes the Mazal family, Isidore is the only one to recognize how everyone is struggling with their grief and perhaps the only one who can help them--if he doesn't run away from home first. <br><br> Isidore's unstinting empathy, combined with his simmering anger, makes for a complex character study, in which the elegiac and comedic build toward a heartbreaking conclusion. With How to Behave in a Crowd, Camille Bordas immerses readers in the interior life of a boy puzzled by adulthood and beginning to realize that the adults around him are just as lost.",
+        cover: {
+            small: "../../assets/How To Behave in a Crowd.jpg",
+            large: "../../assets/How To Behave in a Crowd.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Love for Imperfect Things: How to Accept Yourself in a World Striving for Perfection",
+        author: " Haemin Sunim",
+        year: "2018",
+        color: "#3294ce",
+        categories: [
+            "inspirational"
+        ],
+        preview: "When you care for yourself first, the world begins to find you worthy of care.",
+        synopsis: "A #1 internationally bestselling book of spiritual wisdom about learning to love ourselves, with all our imperfections, by the Buddhist author of The Things You Can See Only When You Slow Down. <br><br> When you care for yourself first, the world begins to find you worthy of care. <br><br> No one is perfect, but that shouldn't hold us back from love--for the world, for one another, or even for ourselves. In this beautifully illustrated guide, Buddhist teacher Haemin Sunim (whose name means \"spontaneous wisdom\") draws on examples from his own life and on his years of helping others to introduce us to the art of self-care. When we treat ourselves with compassion, empathy, and forgiveness, we learn to treat others the same way, allowing us to connect with people on a deeper level, bounce back from failure, deal with feeling hurt or depressed, listen more attentively, express ourselves more clearly, and have the courage to pursue what really makes us happy so we can feel complete in ourselves. With more than thirty-five full-color illustrations, Love for Imperfect Things will appeal to both your eyes and your heart, offering you comfort, encouragement, and wisdom so that you can learn to love yourself, your life, and everyone in it.",
+        cover: {
+            small: "../../assets/Love for Imperfect Thing.jpg",
+            large: "../../assets/Love for Imperfect Thing.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Serpent's Shadow (The Kane Chronicles #3)",
+        author: "Rick Riordan",
+        year: "2012",
+        color: "#16184D",
+        categories: [
+            "fantasy", "fiction", "young adult", "adventure"
+        ],
+        preview: "He's b-a-a-ack! Despite their best efforts, Carter and Sadie Kane can't seem to keep Apophis, the chaos snake, down.",
+        synopsis: "He's b-a-a-ack! Despite their best efforts, Carter and Sadie Kane can't seem to keep Apophis, the chaos snake, down. Now Apophis is threatening to plunge the world into eternal darkness, and the Kanes are faced with the impossible task of having to destroy him once and for all. Unfortunately, the magicians of the House of Life are on the brink of civil war, the gods are divided, and the young initiates of Brooklyn House stand almost alone against the forces of chaos. <br><br> The Kanes' only hope is an ancient spell that might turn the serpent's own shadow into a weapon, but the magic has been lost for a millennia. To find the answer they need, the Kanes must rely on the murderous ghost of a powerful magician who might be able to lead them to the serpent's shadow . . . or might lead them to their deaths in the depths of the underworld. Nothing less than the mortal world is at stake when the Kane family fulfills its destiny in this thrilling conclusion to the Kane Chronicles.",
+        cover: {
+            small: "../../assets/The Serpents Shadow.jpg",
+            large: "../../assets/The Serpents Shadow.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Throne of Fire (The Kane Chronicles #2)",
+        author: "Rick Riordan",
+        year: "2011",
+        color: "#3a1833",
+        categories: [
+            "fantasy", "fiction", "young adult", "adventure"
+        ],
+        preview: "Ever since the gods of Ancient Egypt were unleashed in the modern world, Carter Kane and his sister Sadie have been in trouble.",
+        synopsis: "Ever since the gods of Ancient Egypt were unleashed in the modern world, Carter Kane and his sister Sadie have been in trouble. As descendants of the House of Life, the Kanes have some powers at their command, but the devious gods haven't given them much time to master their skills at Brooklyn House, which has become a training ground for young magicians. And now their most threatening enemy yet - the chaos snake Apophis - is rising. If they don't prevent him from breaking free in a few days' time, the world will come to an end. In other words, it's a typical week for the Kane family. To have any chance of battling the Forces of Chaos, the Kanes must revive the sun god Ra. But that would be a feat more powerful than any magician has ever accomplished. First they have to search the world for the three sections of the Book of Ra, then they have to learn how to chant its spells. Oh, and did we mention that no one knows where Ra is exactly? Narrated in two different wisecracking voices, featuring a large cast of new and unforgettable characters, and with adventures spanning the globe, this second installment in the Kane Chronicles is nothing short of a thrill ride.",
+        cover: {
+            small: "../../assets/The Throne of Fire.jpg",
+            large: "../../assets/The Throne of Fire.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Red Pyramid (The Kane Chronicles #1)",
+        author: "Rick Riordan",
+        year: "2010",
+        color: "#68381e",
+        categories: [
+            "fantasy", "fiction", "young adult", "adventure"
+        ],
+        preview: "Since his mother's death six years ago, Carter Kane has been living out of a suitcase, traveling the globe with his father, the brilliant Egyptologist, Dr. Julius Kane. ",
+        synopsis: "Since his mother's death six years ago, Carter Kane has been living out of a suitcase, traveling the globe with his father, the brilliant Egyptologist, Dr. Julius Kane. But while Carter's been homeschooled, his younger sister, Sadie, has been living with their grandparents in London. Sadie has just what Carter wants—school friends and a chance at a 'normal' life. But Carter has just what Sadie longs for—time with their father. After six years of living apart, the siblings have almost nothing in common. Until now. On Christmas Eve, Sadie and Carter are reunited when their father brings them to the British Museum, with a promise that he's going to \"make things right.\" But all does not go according to plan: Carter and Sadie watch as Julius summons a mysterious figure, who quickly banishes their father and causes a fiery explosion. Soon Carter and Sadie discover that the gods of Ancient Egypt are waking, and the worst of them—Set—has a frightening scheme. To save their father, they must embark on a dangerous journey—a quest that brings them ever closer to the truth about their family and its links to the House of Life, a secret order that has existed since the time of the pharaohs.",
+        cover: {
+            small: "../../assets/The Red Pyramid.jpg",
+            large: "../../assets/The Red Pyramid.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Secret of the Sirens (The Companions Quartet #1)",
+        author: "Julia Golding",
+        year: "2007",
+        color: "#2f8051",
+        categories: [
+            "fantasy","fiction", "young adult"
+        ],
+        preview: "Col felt a stab of fear in his stomach. The Sirens were now close enough for him to see their crimson mouths open in a scream, pale faces blazing with white-hot anger, their bird claws tearing at the air.",
+        synopsis: "When eleven-year-old Connie is sent to live with her eccentric aunt by the sea, she’s not expecting anything great—not to make friends with Col, the coolest guy in town, and certainly not to discover that mythical creatures still exist, that an ancient society has protected them for centuries, and that a dark and treacherous force is lurking in their midst. Most of all, she doesn’t expect to learn that she has the rarest of talents, greater even than her secret ability to communicate with animals. With Col’s help, she could achieve unimaginable power—and face the terrifying choices that come with it. In the tradition of Eragon, A Wrinkle in Time, and The Golden Compass, the first book in the Companions Quartet is a boldly original adventure that will ignite the imaginations and emotions of fantasy readers everywhere.",
+        cover: {
+            small: "../../assets/Secret of the Sirens.jpg",
+            large: "../../assets/Secret of the Sirens.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
         title: "Selamat Tinggal",
         author: "Tere Liye",
         year: "2020",
