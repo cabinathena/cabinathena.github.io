@@ -32,8 +32,8 @@ const books = [
         preview: "When you care for yourself first, the world begins to find you worthy of care.",
         synopsis: "A #1 internationally bestselling book of spiritual wisdom about learning to love ourselves, with all our imperfections, by the Buddhist author of The Things You Can See Only When You Slow Down. <br><br> When you care for yourself first, the world begins to find you worthy of care. <br><br> No one is perfect, but that shouldn't hold us back from love--for the world, for one another, or even for ourselves. In this beautifully illustrated guide, Buddhist teacher Haemin Sunim (whose name means \"spontaneous wisdom\") draws on examples from his own life and on his years of helping others to introduce us to the art of self-care. When we treat ourselves with compassion, empathy, and forgiveness, we learn to treat others the same way, allowing us to connect with people on a deeper level, bounce back from failure, deal with feeling hurt or depressed, listen more attentively, express ourselves more clearly, and have the courage to pursue what really makes us happy so we can feel complete in ourselves. With more than thirty-five full-color illustrations, Love for Imperfect Things will appeal to both your eyes and your heart, offering you comfort, encouragement, and wisdom so that you can learn to love yourself, your life, and everyone in it.",
         cover: {
-            small: "../../assets/Love for Imperfect Thing.jpg",
-            large: "../../assets/Love for Imperfect Thing.jpg"
+            small: "../../assets/Love For Imperfect Thing.jpg",
+            large: "../../assets/Love For Imperfect Thing.jpg"
         },
         contents: [
             {
