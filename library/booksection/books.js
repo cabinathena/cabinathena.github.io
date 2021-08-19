@@ -1,5 +1,181 @@
 const books = [
     {
+        title: "Laut Bercerita",
+        author: "Leila S. Chudori",
+        year: "2017",
+        color: "#F8F8F7",
+        categories: [
+            "fiction", "indonesia", "romance"
+        ],
+        preview: "Laut Bercerita, novel terbaru Leila S. Chudori, bertutur tentang kisah keluarga yang kehilangan, sekumpulan sahabat yang merasakan kekosongan di dada, sekelompok orang yang gemar menyiksa dan lancar berkhianat, sejumlah keluarga yang mencari kejelasan akan anaknya, dan tentang cinta yang tak akan luntur.",
+        synopsis: "Jakarta, Maret 1998 <br><br> Di sebuah senja, di sebuah rumah susun di Jakarta, mahasiswa bernama Biru Laut disergap empat lelaki tak dikenal. Bersama kawan-kawannya, Daniel Tumbuan, Sunu Dyantoro, Alex Perazon, dia dibawa ke sebuah tempat yang tak dikenal. Berbulan-bulan mereka disekap, diinterogasi, dipukul, ditendang, digantung, dan disetrum agar bersedia menjawab satu pertanyaan penting: siapakah yang berdiri di balik gerakan aktivis dan mahasiswa saat itu. <br><br> Jakarta, Juni 1998 <br><br> Keluarga Arya Wibisono, seperti biasa, pada hari Minggu sore memasak bersama, menyediakan makanan kesukaan Biru Laut. Sang ayah akan meletakkan satu piring untuk dirinya, satu piring untuk sang ibu, satu piring untuk Biru Laut, dan satu piring untuk si bungsu Asmara Jati. Mereka duduk menanti dan menanti. Tapi Biru Laut tak kunjung muncul. <br><br> Jakarta, 2000 <br><br> Asmara Jati, adik Biru Laut, beserta Tim Komisi Orang Hilang yang dipimpin Aswin Pradana mencoba mencari jejak mereka yang hilang serta merekam dan mempelajari testimoni mereka yang kembali. Anjani, kekasih Laut, para orangtua dan istri aktivis yang hilang menuntut kejelasan tentang anggota keluarga mereka. Sementara Biru Laut, dari dasar laut yang sunyi bercerita kepada kita, kepada dunia tentang apa yang terjadi pada dirinya dan kawan-kawannya. <br><br> Laut Bercerita, novel terbaru Leila S. Chudori, bertutur tentang kisah keluarga yang kehilangan, sekumpulan sahabat yang merasakan kekosongan di dada, sekelompok orang yang gemar menyiksa dan lancar berkhianat, sejumlah keluarga yang mencari kejelasan akan anaknya, dan tentang cinta yang tak akan luntur. ",
+        cover: {
+            small: "../../assets/Laut Bercerita.jpg",
+            large: "../../assets/Laut Bercerita.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Song of Achilles",
+        author: "Madeline Miller",
+        year: "2011",
+        color: "#21AABA",
+        categories: [
+            "fiction", "fantasy", "romance"
+        ],
+        preview: "Achilles, \"the best of all the Greeks,\" son of the cruel sea goddess Thetis and the legendary king Peleus, is strong, swift, and beautiful, irresistible to all who meet him.",
+        synopsis: "Achilles, \"the best of all the Greeks,\" son of the cruel sea goddess Thetis and the legendary king Peleus, is strong, swift, and beautiful, irresistible to all who meet him. Patroclus is an awkward young prince, exiled from his homeland after an act of shocking violence. Brought together by chance, they forge an inseparable bond, despite risking the gods' wrath. <br><br> They are trained by the centaur Chiron in the arts of war and medicine, but when word comes that Helen of Sparta has been kidnapped, all the heroes of Greece are called upon to lay siege to Troy in her name. Seduced by the promise of a glorious destiny, Achilles joins their cause, and torn between love and fear for his friend, Patroclus follows. Little do they know that the cruel Fates will test them both as never before and demand a terrible sacrifice.",
+        cover: {
+            small: "../../assets/The Song of Achilles.jpg",
+            large: "../../assets/The Song of Achilles.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Totto-chan's Children: A Goodwill Journey to the Children of the World",
+        author: "Tetsuko Kuroyanagi,",
+        year: "2010",
+        color: "#E9E3DA",
+        categories: [
+            "non fiction", "inspirational", "education", "biography", "adventure", "children", "indonesia"
+        ],
+        preview: "Totto-chan kini sudah dewasa. Ia sekarang menjadi aktris terkenal dan punya banyak penggemar.",
+        synopsis: "Totto-chan kini sudah dewasa. Ia sekarang menjadi aktris terkenal dan punya banyak penggemar. Tapi Totto-chan tak pernah melupakan masa kecilnya. Karena itulah Totto-chan langsung setuju ketika UNICEF menawarinya untuk jadi Duta Kemanusiaan. <br><br> Sejak itu, Totto-chan berkunjung ke banyak negara dan menemui berbagai macam anak. Di negara-negara yang mengalami kekeringan hebat atau terkena dampak perang, anak-anak yang sebenarnya polos dan tak berdosa selalu jadi korban. Ternyata masih banyak sekali anak-anak dunia yang tidak bisa makan, tidak bisa sekolah, tidak bisa dirawat ketika sakit, bahkan mengalami trauma hebat akibat perang. <br><br> Lewat buku ini Totto-chan ingin menceritakan pengalamannya saat bertemu anak-anak manis itu supaya semakin banyak orang bisa membantu anak-anak dunia menggapai masa depan yang lebih baik.",
+        cover: {
+            small: "../../assets/Tottochan Tottos Children.jpg",
+            large: "../../assets/Tottochan Tottos Children.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Totto-chan: Si Gadis Kecil di Tepi Jendela",
+        author: "Tetsuko Kuroyanagi,",
+        year: "1985",
+        color: "#F5DFBF",
+        categories: [
+            "non fiction", "classics", "education", "biography", "indonesia"
+        ],
+        preview: "Ibu Guru menganggap Totto chan nakal, padahal gadis cilik itu hanya punya rasa ingin tahu yang besar.",
+        synopsis: "Ibu Guru menganggap Totto chan nakal, padahal gadis cilik itu hanya punya rasa ingin tahu yang besar. Itulah sebabnya ia gemar berdiri di depan jendela selama pelajaran berlangsung. Karena para guru sudah tak tahan lagi, akhirnya Totto chan dikeluarkan dari sekolah. <br><br> Mama pun mendaftarkan Totto chan ke Tomoe Gakuen. Totto chan girang sekali, di sekolah itu para murid belajar di gerbong kereta yng dijadikan kelas. Ia bisa belajar sambil menikmati pemandangan di luar gerbong dan membayangkan sedang melakukan perjalanan. Mengasyikkan sekali kan? Di Tomoe Gakuen, para murid juga boleh mengubah urutan pelajaran sesuai keinginan mereka. Ada yang memulai hari dengan belajar fisika, ada yang mendahulukan menggambar, ada yang ingin belajar bahasa dulu, pokoknya sesuka mereka. <br><br> Karena sekolah itu begitu unik, Totto chan tidak hanya belajar fisika, berhitung, musik, bahasa, dan lain-lain di sana. Ia juga mendapatkan banyak pelajaran berharga tentang persahabatan, rasa hormat dan menghargai orang lain, serta kebebasan menjadi diri sendiri.",
+        cover: {
+            small: "../../assets/Totto-chan Gadis Kecil di Jendela.jpg",
+            large: "../../assets/Totto-chan Gadis Kecil di Jendela.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Jung's Map of the Soul: An Introduction",
+        author: "Murray B. Stein",
+        year: "1998",
+        color: "#2C2528",
+        categories: [
+            "non fiction", "self help", "education", "psychology"
+        ],
+        preview: "More than a mere overview, the book offers readers a strong grounding in the basic principles of Jung's analytical psychology in addition to illuminating insights.",
+        synopsis: "More than a mere overview, the book offers readers a strong grounding in the basic principles of Jung's analytical psychology in addition to illuminating insights.",
+        cover: {
+            small: "../../assets/Jungs Map of The Soul.jpg",
+            large: "../../assets/Jungs Map of The Soul.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Little Prince",
+        author: "Antoine de Saint-Exupéry",
+        year: "2000",
+        color: "#064D90",
+        categories: [
+            "fiction", "classics", "fantasy", "young adult"
+        ],
+        preview: "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow.",
+        synopsis: "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. \"Please,\" asks the stranger, \"draw me a sheep.\" And the pilot realizes that when life's events are too difficult to understand, there is no choice but to succumb to their mysteries. He pulls out pencil and paper... And thus begins this wise and enchanting fable that, in teaching the secret of what is really important in life, has changed forever the world for its readers. <br><br> Few stories are as widely read and as universally cherished by children and adults alike as The Little Prince, presented here in a stunning new translation with carefully restored artwork. The definitive edition of a worldwide classic, it will capture the hearts of readers of all ages.",
+        cover: {
+            small: "../../assets/The Little Prince.jpg",
+            large: "../../assets/The Little Prince.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "101 Essays That Will Change The Way You Think",
+        author: "Brianna Wiest ",
+        year: "2016",
+        color: "White",
+        categories: [
+            "non fiction", "self help", "education", "psychology"
+        ],
+        preview: "Over the past few years, Brianna Wiest has gained renown for her deeply moving, philosophical writing. ",
+        synopsis: "Over the past few years, Brianna Wiest has gained renown for her deeply moving, philosophical writing. This new compilation of her published work features pieces on why you should pursue purpose over passion, embrace negative thinking, see the wisdom in daily routine, and become aware of the cognitive biases that are creating the way you see your life. Some of these pieces have never been seen; others have been read by millions of people around the world. Regardless, each will leave you thinking: this idea changed my life.",
+        cover: {
+            small: "../../assets/101 Essays That Will Change The Way You Think.jpg",
+            large: "../../assets/101 Essays That Will Change The Way You Think.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Complete Bladesmith: Forging Your Way to Perfection",
+        author: "Jim Hrisoulas",
+        year: "1987",
+        color: "#D8B57D",
+        categories: [
+            "non fiction", "reference", "history"
+        ],
+        preview: "Looking for instructions in bladesmithing that'll put you on the cutting edge of the custom blade market?",
+        synopsis: "Looking for instructions in bladesmithing that'll put you on the cutting edge of the custom blade market? Then this definitive guide to forging world-class blades is for you. Written by a master bladesmith, this book tells you how to set up your forge, select your materials, fashion grips and hilts, grind edges and much more!",
+        cover: {
+            small: "../../assets/The Complete Bladesmith.jpg",
+            large: "../../assets/The Complete Bladesmith.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
         title: "The Hate U Give (The Hate U Give #1)",
         author: "Angie Thomas",
         year: "2017",
