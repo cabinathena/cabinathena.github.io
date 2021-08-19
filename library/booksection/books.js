@@ -1,5 +1,380 @@
 const books = [
     {
+        title: "The Lightning Thief (Percy Jackson and the Olympians #1)",
+        author: "Rick Riordan",
+        year: "2006",
+        color: "#1E5242",
+        categories: [
+            "fiction", "young", "fantasy", "adventure", "children"
+        ],
+        preview: "Percy Jackson is a good kid, but he can't seem to focus on his schoolwork or control his temper.",
+        synopsis: "Percy Jackson is a good kid, but he can't seem to focus on his schoolwork or control his temper. And lately, being away at boarding school is only getting worse - Percy could have sworn his pre-algebra teacher turned into a monster and tried to kill him. When Percy's mom finds out, she knows it's time that he knew the truth about where he came from, and that he go to the one place he'll be safe. She sends Percy to Camp Half Blood, a summer camp for demigods (on Long Island), where he learns that the father he never knew is Poseidon, God of the Sea. Soon a mystery unfolds and together with his friends—one a satyr and the other the demigod daughter of Athena - Percy sets out on a quest across the United States to reach the gates of the Underworld (located in a recording studio in Hollywood) and prevent a catastrophic war between the gods.",
+        cover: {
+            small: "../../assets/The Lightning Thief.jpg",
+            large: "../../assets/The Lightning Thief.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Sea of Monsters (Percy Jackson and the Olympians #2)",
+        author: "Rick Riordan",
+        year: "2006",
+        color: "#7C3515",
+        categories: [
+            "fiction", "young", "fantasy", "adventure", "children"
+        ],
+        preview: "The heroic son of Poseidon makes an action-packed comeback in the second must-read installment of Rick Riordan's amazing young readers series.",
+        synopsis: "The heroic son of Poseidon makes an action-packed comeback in the second must-read installment of Rick Riordan's amazing young readers series. Starring Percy Jackson, a \"half blood\" whose mother is human and whose father is the God of the Sea, Riordan's series combines cliffhanger adventure and Greek mythology lessons that results in true page-turners that get better with each installment. <br><br> In this episode, The Sea of Monsters, Percy sets out to retrieve the Golden Fleece before his summer camp is destroyed, surpassing the first book's drama and setting the stage for more thrills to come.",
+        cover: {
+            small: "../../assets/The Sea of Monsters.jpg",
+            large: "../../assets/The Sea of Monsters.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Titan's Curse (Percy Jackson and the Olympians #3)",
+        author: "Rick Riordan",
+        year: "2007",
+        color: "#174072",
+        categories: [
+            "fiction", "fantasy", "young", "adventure"
+        ],
+        preview: "It's not everyday you find yourself in combat with a half-lion, half-human.",
+        synopsis: "It's not everyday you find yourself in combat with a half-lion, half-human. <br><br> But when you're the son of a Greek god, it happens. And now my friend Annabeth is missing, a goddess is in chains and only five half-blood heroes can join the quest to defeat the doomsday monster. <br><br> Oh, and guess what? The Oracle has predicted that not all of us will survive...",
+        cover: {
+            small: "../../assets/The Titan Curse.jpg",
+            large: "../../assets/The Titan Curse.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Red Pyramid (The Kane Chronicles #1)",
+        author: "Rick Riordan",
+        year: "2010",
+        color: "#68381e",
+        categories: [
+            "fantasy", "fiction", "young adult", "adventure"
+        ],
+        preview: "Since his mother's death six years ago, Carter Kane has been living out of a suitcase, traveling the globe with his father, the brilliant Egyptologist, Dr. Julius Kane. ",
+        synopsis: "Since his mother's death six years ago, Carter Kane has been living out of a suitcase, traveling the globe with his father, the brilliant Egyptologist, Dr. Julius Kane. But while Carter's been homeschooled, his younger sister, Sadie, has been living with their grandparents in London. Sadie has just what Carter wants—school friends and a chance at a 'normal' life. But Carter has just what Sadie longs for—time with their father. After six years of living apart, the siblings have almost nothing in common. Until now. On Christmas Eve, Sadie and Carter are reunited when their father brings them to the British Museum, with a promise that he's going to \"make things right.\" But all does not go according to plan: Carter and Sadie watch as Julius summons a mysterious figure, who quickly banishes their father and causes a fiery explosion. Soon Carter and Sadie discover that the gods of Ancient Egypt are waking, and the worst of them—Set—has a frightening scheme. To save their father, they must embark on a dangerous journey—a quest that brings them ever closer to the truth about their family and its links to the House of Life, a secret order that has existed since the time of the pharaohs.",
+        cover: {
+            small: "../../assets/The Red Pyramid.jpg",
+            large: "../../assets/The Red Pyramid.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Throne of Fire (The Kane Chronicles #2)",
+        author: "Rick Riordan",
+        year: "2011",
+        color: "#3a1833",
+        categories: [
+            "fantasy", "fiction", "young adult", "adventure"
+        ],
+        preview: "Ever since the gods of Ancient Egypt were unleashed in the modern world, Carter Kane and his sister Sadie have been in trouble.",
+        synopsis: "Ever since the gods of Ancient Egypt were unleashed in the modern world, Carter Kane and his sister Sadie have been in trouble. As descendants of the House of Life, the Kanes have some powers at their command, but the devious gods haven't given them much time to master their skills at Brooklyn House, which has become a training ground for young magicians. And now their most threatening enemy yet - the chaos snake Apophis - is rising. If they don't prevent him from breaking free in a few days' time, the world will come to an end. In other words, it's a typical week for the Kane family. To have any chance of battling the Forces of Chaos, the Kanes must revive the sun god Ra. But that would be a feat more powerful than any magician has ever accomplished. First they have to search the world for the three sections of the Book of Ra, then they have to learn how to chant its spells. Oh, and did we mention that no one knows where Ra is exactly? Narrated in two different wisecracking voices, featuring a large cast of new and unforgettable characters, and with adventures spanning the globe, this second installment in the Kane Chronicles is nothing short of a thrill ride.",
+        cover: {
+            small: "../../assets/The Throne of Fire.jpg",
+            large: "../../assets/The Throne of Fire.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Serpent's Shadow (The Kane Chronicles #3)",
+        author: "Rick Riordan",
+        year: "2012",
+        color: "#16184D",
+        categories: [
+            "fantasy", "fiction", "young adult", "adventure"
+        ],
+        preview: "He's b-a-a-ack! Despite their best efforts, Carter and Sadie Kane can't seem to keep Apophis, the chaos snake, down.",
+        synopsis: "He's b-a-a-ack! Despite their best efforts, Carter and Sadie Kane can't seem to keep Apophis, the chaos snake, down. Now Apophis is threatening to plunge the world into eternal darkness, and the Kanes are faced with the impossible task of having to destroy him once and for all. Unfortunately, the magicians of the House of Life are on the brink of civil war, the gods are divided, and the young initiates of Brooklyn House stand almost alone against the forces of chaos. <br><br> The Kanes' only hope is an ancient spell that might turn the serpent's own shadow into a weapon, but the magic has been lost for a millennia. To find the answer they need, the Kanes must rely on the murderous ghost of a powerful magician who might be able to lead them to the serpent's shadow . . . or might lead them to their deaths in the depths of the underworld. Nothing less than the mortal world is at stake when the Kane family fulfills its destiny in this thrilling conclusion to the Kane Chronicles.",
+        cover: {
+            small: "../../assets/The Serpents Shadow.jpg",
+            large: "../../assets/The Serpents Shadow.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "For Magnus Chase: Hotel Valhalla, Guide to the Norse Worlds (Magnus Chase and the Gods of Asgard)",
+        author: "Rick Riordan",
+        year: "2016",
+        color: "#c5975b",
+        categories: [
+            "fantasy", "young", "children", "fiction", "adventure"
+        ],
+        preview: "So you've made it to Valhalla. Now what?",
+        synopsis: "So you've made it to Valhalla. Now what? This 'who's who' guide to the gods, goddesses, and other important figures of Norse mythology was commissioned by Helgi, who, after more than a millennium as manager of Hotel Valhalla, became fed up with answering the same questions from newly deceased heroes at check-in. The profiles provide essential stats, interviews, and personal reflections so you can identify the gods and avoid those awkward introductions. Handy facts about other beings round out this go-to tome. You'll never see Ratatosk as a cute little rodent or confuse a dwarf with an elf ever again!",
+        cover: {
+            small: "../../assets/For Magnus Chase.jpg",
+            large: "../../assets/For Magnus Chase.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Encyclopedia of Greek and Roman Mythology",
+        author: "Luke Roman, Monica Roman",
+        year: "2010",
+        color: "#A37649",
+        categories: [
+            "non fiction", "fantasy", "reference"
+        ],
+        preview: "Greek and Roman mythology has fascinated people for more than two millennia, and its influence on cultures throughout Europe, America, North Africa, and the Middle East attests to the universal appeal of the stories. This title examines the best-known figures of Greek and Roman mythology together with the great works of classic literature.",
+        synopsis: "Greek and Roman mythology has fascinated people for more than two millennia, and its influence on cultures throughout Europe, America, North Africa, and the Middle East attests to the universal appeal of the stories. This title examines the best-known figures of Greek and Roman mythology together with the great works of classic literature.",
+        cover: {
+            small: "../../assets/Encyclopedia of Greek and Roman Mythology.jpg",
+            large: "../../assets/Encyclopedia of Greek and Roman Mythology.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Underground: The Tokyo Gas Attack and the Japanese Psyche",
+        author: "Haruki Murakami",
+        year: "2003",
+        color: "#F3F0EF",
+        categories: [
+            "non fiction", "history", "crime", "mystery"
+        ],
+        preview: "It was a clear spring day, Monday, March 20, 1995, when five members of the religious cult Aum Shinrikyo conducted chemical warfare on the Tokyo subway system using sarin, a poison gas twenty-six times as deadly as cyanide.",
+        synopsis: "It was a clear spring day, Monday, March 20, 1995, when five members of the religious cult Aum Shinrikyo conducted chemical warfare on the Tokyo subway system using sarin, a poison gas twenty-six times as deadly as cyanide. The unthinkable had happened, a major urban transit system had become the target of a terrorist attack. <br><br> In an attempt to discover why, Haruki Murakami, internationally acclaimed author of The Wind-Up Bird Chronicle and arguably Japan’s most important contemporary novelist, talked to the people who lived through the catastrophe—from a Subway Authority employee with survivor guilt, to a fashion salesman with more venom for the media than for the perpetrators, to a young cult member who vehemently condemns the attack though he has not quit Aum. Through these and many other voices, Murakami exposes intriguing aspects of the Japanese psyche. And as he discerns the fundamental issues leading to the attack, we achieve a clear vision of an event that could occur anytime, anywhere. Hauntingly compelling and inescapably important, Underground is a powerful work of journalistic literature from one of the world’s most perceptive writers.",
+        cover: {
+            small: "../../assets/Underground The Tokyo Gas Attack and the Japanese Psyche.jpg",
+            large: "../../assets/Underground The Tokyo Gas Attack and the Japanese Psyche.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Dionysus in Exile: On the Repression of the Body and Emotion",
+        author: "Raphael Lopez-Pedraza",
+        year: "2000",
+        color: "#0C0B0C",
+        categories: [
+            "non fiction", "history", "fantasy", "classics", "reference"
+        ],
+        preview: "The internationally renowned Jungian analyst Lopez-Pedraza diagnoses the psychological illness at the core of modern society--the loss of embodied soulfulness in people's lives.",
+        synopsis: "The internationally renowned Jungian analyst Lopez-Pedraza diagnoses the psychological illness at the core of modern society--the loss of embodied soulfulness in people's lives. In this study of the Greek god Dionysus, he offers insight for a cure. This book may be worth several years in psychotherapy, if one takes its message to heart. Dismemberment and cannibalism, Prometheus and Titanic nature, mystical experience, the communal aspect of Dionysiac worship, jazz, flamenco, and bullfighting are among the many twists and turns taken in this essay that wends its way through issues of the body and emotion to open hidden doors for psychotherapy and to cast new light on post-modern humanity.",
+        cover: {
+            small: "../../assets/Dionysus Dionysus in Exile.jpg",
+            large: "../../assets/Dionysus Dionysus in Exile.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Lucifer Prince Who Fell for Me",
+        author: "Dekdi A.",
+        year: "2021",
+        color: "#322B22",
+        categories: [
+            "fiction", "fantasy", "young", "indonesia"
+        ],
+        preview: "Gracia Walson adalah seorang Gadis menyedihkan. Sejak lahir, ia memiliki kelainan jantung yang mebuatnya tidak bisa bersosialisasi.",
+        synopsis: "Gracia Walson adalah seorang Gadis menyedihkan. Sejak lahir, ia memiliki kelainan jantung yang mebuatnya tidak bisa bersosialisasi. Ia tidak bisa merasakan bangku sekolah, dan hidup dengan bantuan alat penopang jantung. <br><br> Harapannya adalah sembuh dan bisa hidup seperti manusia pada umumnya. Namun, di usianya yang ke 25 tahun, Gracia malah menghembuskan napas terakhir dengan kondisi memeluk sebuah novel berjudul “The Lucifer Prince Who Fell For Me.” <br><br> Tanpa diduga, Gracia malah terbangun di sebuah rumah megah dengan wujud seorang remaja yang begitu cantik. Remaja tersebut bernama Grace Nata Welbon, seorang tokoh antagonis novel “The Lucifer Prince Who Fell For Me.” Ia perempuan sosiopat yang nantinya akan mati. <br><br> Takdirnya adalah dibunuh oleh karakter utama, Jeno Narenth Felipe.",
+        cover: {
+            small: "../../assets/The Lucifer Prince Who Fell For Me.jpg",
+            large: "../../assets/The Lucifer Prince Who Fell For Me.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Continuum",
+        author: "Ziggy Zezsyazeoviennazabrizkie",
+        year: "2018",
+        color: "#FCFDFD",
+        categories: [
+            "fiction", "fantasy", "children", "indonesia"
+        ],
+        preview: "Do you know how, in the movies, when someone dies, the grown-ups will say that this dead person had become a star in heaven? This is a story of why you shouldn’t tell that crap to children.",
+        synopsis: "Do you know how, in the movies, when someone dies, the grown-ups will say that this dead person had become a star in heaven? This is a story of why you shouldn’t tell that crap to children.",
+        cover: {
+            small: "../../assets/Continuum.jpg",
+            large: "../../assets/Continuum.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Golden Compass (His Dark Materials #1)",
+        author: "Philip Pullman",
+        year: "1996",
+        color: "#0F245B",
+        categories: [
+            "fiction", "fantasy", "children", "young", "classics", "adventure"
+        ],
+        preview: "Lyra is rushing to the cold, far North, where witch clans and armored bears rule.",
+        synopsis: "Lyra is rushing to the cold, far North, where witch clans and armored bears rule. North, where the Gobblers take the children they steal--including her friend Roger. North, where her fearsome uncle Asriel is trying to build a bridge to a parallel world. <br><br> Can one small girl make a difference in such great and terrible endeavors? This is Lyra: a savage, a schemer, a liar, and as fierce and true a champion as Roger or Asriel could want--but what Lyra doesn't know is that to help one of them will be to betray the other.",
+        cover: {
+            small: "../../assets/The Golden Compass.jpg",
+            large: "../../assets/The Golden Compass.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Howl’s Moving Castle (Howl's Moving Castle #1)",
+        author: "Diana Wynne Jones",
+        year: "2001",
+        color: "#543A21",
+        categories: [
+            "fiction", "fantasy", "children", "young", "classics", "adventure"
+        ],
+        preview: "Sophie has the great misfortune of being the eldest of three daughters, destined to fail miserably should she ever leave home to seek her fate.",
+        synopsis: "Sophie has the great misfortune of being the eldest of three daughters, destined to fail miserably should she ever leave home to seek her fate. But when she unwittingly attracts the ire of the Witch of the Waste, Sophie finds herself under a horrid spell that transforms her into an old lady. Her only chance at breaking it lies in the ever-moving castle in the hills: the Wizard Howl's castle. To untangle the enchantment, Sophie must handle the heartless Howl, strike a bargain with a fire demon, and meet the Witch of the Waste head-on. Along the way, she discovers that there's far more to Howl—and herself—than first meets the eye.",
+        cover: {
+            small: "../../assets/Howls Moving Castle.jpg",
+            large: "../../assets/Howls Moving Castle.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Flame of Olympus (Pegasus #1)",
+        author: "Kate O'Hearn",
+        year: "2013",
+        color: "#161714",
+        categories: [
+            "fiction", "fantasy", "children", "young", "adventure"
+        ],
+        preview: "A young girl, a winged horse, and a war of epic proportions make for an adventurous start to an exciting new trilogy.",
+        synopsis: "A young girl, a winged horse, and a war of epic proportions make for an adventurous start to an exciting new trilogy. <br><br> When Pegasus crashes onto a Manhattan roof during a terrible storm, Emily’s life changes forever. Suddenly allied with a winged horse she’d always thought was mythical, Emily is thrust into the center of a fierce battle between the Roman gods and a terrifying race of multiarmed stone warriors called the Nirads. Emily must team up with a thief named Paelen, the goddess Diana, and a boy named Joel in order to return Pegasus to Olympus and rescue the gods from a certain death. <br><br> Along the way, Emily and her companions will fight monsters, run from a government agency that is prepared to dissect Pegasus, and even fly above the Manhattan skyline—all as part of a quest to save Olympus before time runs out.",
+        cover: {
+            small: "../../assets/The Flame of Olympus.jpg",
+            large: "../../assets/The Flame of Olympus.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Death on the Nile (Hercule Poirot #17)",
+        author: "Agatha Christie",
+        year: "1978",
+        color: "#EFDFCD",
+        categories: [
+            "fiction", "mystery", "classics"
+        ],
+        preview: "The tranquillity of a cruise along the Nile is shattered by the discovery that Linnet Ridgeway has been shot through the head.",
+        synopsis: "The tranquillity of a cruise along the Nile is shattered by the discovery that Linnet Ridgeway has been shot through the head. She was young, stylish and beautiful, a girl who had everything - until she lost her life. Hercule Poirot recalls an earlier outburst by a fellow passenger: 'I'd like to put my dear little pistol against her head and just press the trigger.' Yet in this exotic setting, nothing is ever quite what it seems...",
+        cover: {
+            small: "../../assets/Death on The Nile.jpg",
+            large: "../../assets/Death on The Nile.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Sherlock Holmes: Koleksi Kasus 1",
+        author: "Arthur Conan Doyle",
+        year: "2015",
+        color: "#150B0C",
+        categories: [
+            "fiction", "mystery", "classics", "adventure", "indonesia"
+        ],
+        preview: "Sejak muncul pertama kali tahun 1887, Sherlock Holmes menjadi tokoh fiksi yang paling fenomenal. Dia menjadi jagoan klasik yang legendaris dan menginspirasi dalam budaya pop bahkan hingga abad ke-21.",
+        synopsis: "Sejak muncul pertama kali tahun 1887, Sherlock Holmes menjadi tokoh fiksi yang paling fenomenal. Dia menjadi jagoan klasik yang legendaris dan menginspirasi dalam budaya pop bahkan hingga abad ke-21. Bersama Dr. John Watson, Sherlock Holmes memecahkan kasus-kasus rumit berdasarkan kemampuannya menemukan petunjuk-petunjuk yang sering diabaikan orang lain. <br><br> Koleksi Kasus Sherlock Holmes 1 ini dimulai dengan novel pertama Penelusuran Benang Merah yang memperkenalkan Sherlock Holmes si eksentrik yang genius ini dengan Dr. Watson. Empat Pemburu Harta yang menyajikan kejutan penuh teka-teki. Perjumpaannya dengan wanita yang sangat dikaguminya di Petualangan Sherlock Holmes. Peristiwa pertama yang mempertemukannya dengan musuh bebuyutannya, Dr. Moriarty, di Memoar Sherlock Holmes. Dan petualangan dalam Anjing Setan Sherlock Holmes yang menegakkan bulu kuduk. <br><br> Koleksi Kasus #1 terdiri dari:<br> - Penelusuran Benang Merah <br> - Empat Pemburu Harta <br> - Petualangan Sherlock Holmes <br> - Memoar Sherlock Holmes <br> - Anjing Setan Sherlock Holmes",
+        cover: {
+            small: "../../assets/Sherlock Holmes.jpg",
+            large: "../../assets/Sherlock Holmes.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    
+    {
         title: "Radio Silence ",
         author: "Alice Oseman ",
         year: "2016",
@@ -56,28 +431,6 @@ const books = [
         cover: {
             small: "../../assets/Dear Tomorrow.jpg",
             large: "../../assets/Dear Tomorrow.jpg"
-        },
-        contents: [
-            {
-                title: "Chapter 1",
-                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
-            }
-        ]
-    }
-    ,
-    {
-        title: "The Titan's Curse (Percy Jackson and the Olympians #3)",
-        author: "Rick Riordan",
-        year: "2007",
-        color: "#174072",
-        categories: [
-            "fiction", "fantasy", "young", "adventure",
-        ],
-        preview: "It's not everyday you find yourself in combat with a half-lion, half-human.",
-        synopsis: "It's not everyday you find yourself in combat with a half-lion, half-human. <br><br> But when you're the son of a Greek god, it happens. And now my friend Annabeth is missing, a goddess is in chains and only five half-blood heroes can join the quest to defeat the doomsday monster. <br><br> Oh, and guess what? The Oracle has predicted that not all of us will survive...",
-        cover: {
-            small: "../../assets/The Titan Curse.jpg",
-            large: "../../assets/The Titan Curse.jpg"
         },
         contents: [
             {
@@ -594,72 +947,6 @@ const books = [
     }
     ,
     {
-        title: "The Serpent's Shadow (The Kane Chronicles #3)",
-        author: "Rick Riordan",
-        year: "2012",
-        color: "#16184D",
-        categories: [
-            "fantasy", "fiction", "young adult", "adventure"
-        ],
-        preview: "He's b-a-a-ack! Despite their best efforts, Carter and Sadie Kane can't seem to keep Apophis, the chaos snake, down.",
-        synopsis: "He's b-a-a-ack! Despite their best efforts, Carter and Sadie Kane can't seem to keep Apophis, the chaos snake, down. Now Apophis is threatening to plunge the world into eternal darkness, and the Kanes are faced with the impossible task of having to destroy him once and for all. Unfortunately, the magicians of the House of Life are on the brink of civil war, the gods are divided, and the young initiates of Brooklyn House stand almost alone against the forces of chaos. <br><br> The Kanes' only hope is an ancient spell that might turn the serpent's own shadow into a weapon, but the magic has been lost for a millennia. To find the answer they need, the Kanes must rely on the murderous ghost of a powerful magician who might be able to lead them to the serpent's shadow . . . or might lead them to their deaths in the depths of the underworld. Nothing less than the mortal world is at stake when the Kane family fulfills its destiny in this thrilling conclusion to the Kane Chronicles.",
-        cover: {
-            small: "../../assets/The Serpents Shadow.jpg",
-            large: "../../assets/The Serpents Shadow.jpg"
-        },
-        contents: [
-            {
-                title: "Chapter 1",
-                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
-            }
-        ]
-    }
-    ,
-    {
-        title: "The Throne of Fire (The Kane Chronicles #2)",
-        author: "Rick Riordan",
-        year: "2011",
-        color: "#3a1833",
-        categories: [
-            "fantasy", "fiction", "young adult", "adventure"
-        ],
-        preview: "Ever since the gods of Ancient Egypt were unleashed in the modern world, Carter Kane and his sister Sadie have been in trouble.",
-        synopsis: "Ever since the gods of Ancient Egypt were unleashed in the modern world, Carter Kane and his sister Sadie have been in trouble. As descendants of the House of Life, the Kanes have some powers at their command, but the devious gods haven't given them much time to master their skills at Brooklyn House, which has become a training ground for young magicians. And now their most threatening enemy yet - the chaos snake Apophis - is rising. If they don't prevent him from breaking free in a few days' time, the world will come to an end. In other words, it's a typical week for the Kane family. To have any chance of battling the Forces of Chaos, the Kanes must revive the sun god Ra. But that would be a feat more powerful than any magician has ever accomplished. First they have to search the world for the three sections of the Book of Ra, then they have to learn how to chant its spells. Oh, and did we mention that no one knows where Ra is exactly? Narrated in two different wisecracking voices, featuring a large cast of new and unforgettable characters, and with adventures spanning the globe, this second installment in the Kane Chronicles is nothing short of a thrill ride.",
-        cover: {
-            small: "../../assets/The Throne of Fire.jpg",
-            large: "../../assets/The Throne of Fire.jpg"
-        },
-        contents: [
-            {
-                title: "Chapter 1",
-                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
-            }
-        ]
-    }
-    ,
-    {
-        title: "The Red Pyramid (The Kane Chronicles #1)",
-        author: "Rick Riordan",
-        year: "2010",
-        color: "#68381e",
-        categories: [
-            "fantasy", "fiction", "young adult", "adventure"
-        ],
-        preview: "Since his mother's death six years ago, Carter Kane has been living out of a suitcase, traveling the globe with his father, the brilliant Egyptologist, Dr. Julius Kane. ",
-        synopsis: "Since his mother's death six years ago, Carter Kane has been living out of a suitcase, traveling the globe with his father, the brilliant Egyptologist, Dr. Julius Kane. But while Carter's been homeschooled, his younger sister, Sadie, has been living with their grandparents in London. Sadie has just what Carter wants—school friends and a chance at a 'normal' life. But Carter has just what Sadie longs for—time with their father. After six years of living apart, the siblings have almost nothing in common. Until now. On Christmas Eve, Sadie and Carter are reunited when their father brings them to the British Museum, with a promise that he's going to \"make things right.\" But all does not go according to plan: Carter and Sadie watch as Julius summons a mysterious figure, who quickly banishes their father and causes a fiery explosion. Soon Carter and Sadie discover that the gods of Ancient Egypt are waking, and the worst of them—Set—has a frightening scheme. To save their father, they must embark on a dangerous journey—a quest that brings them ever closer to the truth about their family and its links to the House of Life, a secret order that has existed since the time of the pharaohs.",
-        cover: {
-            small: "../../assets/The Red Pyramid.jpg",
-            large: "../../assets/The Red Pyramid.jpg"
-        },
-        contents: [
-            {
-                title: "Chapter 1",
-                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
-            }
-        ]
-    }
-    ,
-    {
         title: "Secret of the Sirens (The Companions Quartet #1)",
         author: "Julia Golding",
         year: "2007",
@@ -967,28 +1254,7 @@ const books = [
         ]
     }
     ,
-    {
-        title: "For Magnus Chase: Hotel Valhalla, Guide to the Norse Worlds (Magnus Chase and the Gods of Asgard)",
-        author: "Rick Riordan",
-        year: "2016",
-        color: "#c5975b",
-        categories: [
-            "fantasy", "young", "children", "fiction", "adventure"
-        ],
-        preview: "So you've made it to Valhalla. Now what?",
-        synopsis: "So you've made it to Valhalla. Now what? This 'who's who' guide to the gods, goddesses, and other important figures of Norse mythology was commissioned by Helgi, who, after more than a millennium as manager of Hotel Valhalla, became fed up with answering the same questions from newly deceased heroes at check-in. The profiles provide essential stats, interviews, and personal reflections so you can identify the gods and avoid those awkward introductions. Handy facts about other beings round out this go-to tome. You'll never see Ratatosk as a cute little rodent or confuse a dwarf with an elf ever again!",
-        cover: {
-            small: "../../assets/For Magnus Chase.jpg",
-            large: "../../assets/For Magnus Chase.jpg"
-        },
-        contents: [
-            {
-                title: "Chapter 1",
-                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
-            }
-        ]
-    }
-    ,
+
     // {
     //     title: "Of Mice and Men",
     //     author: "John Steinbeck",
