@@ -1,5 +1,247 @@
 const books = [
     {
+        title: "Radio Silence ",
+        author: "Alice Oseman ",
+        year: "2016",
+        color: "#322B29",
+        categories: [
+            "fiction", "young", "romance"
+        ],
+        preview: "What if everything you set yourself up to be was wrong?",
+        synopsis: "What if everything you set yourself up to be was wrong? <br><br> Frances has been a study machine with one goal. Nothing will stand in her way; not friends, not a guilty secret – not even the person she is on the inside. Then Frances meets Aled, and for the first time she's unafraid to be herself. <br><br> So when the fragile trust between them is broken, Frances is caught between who she was and who she longs to be. Now Frances knows that she has to confront her past. To confess why Carys disappeared…  <br><br> Frances is going to need every bit of courage she has. <br><br> Engaging with themes of identity, diversity and the freedom to choose, Radio Silence is a tour de force by the most exciting writer of her generation.",
+        cover: {
+            small: "../../assets/Radio Silence.jpg",
+            large: "../../assets/Radio Silence.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Alchemist - Sang Alkemis",
+        author: "Paulo Coelho, Tanti Lesmana (Translator)",
+        year: "2005",
+        color: "#99534A",
+        categories: [
+            "fiction", "classics", "adventure", "indonesia", "self help", "fantasy"
+        ],
+        preview: "“Mengapa kita harus mendengarkan suara hati kita?” tanya si anak, ketika mendirikan tenda pada hari itu. <br><br> \“Sebab, di mana hatimu berada, di situlah hartamu berada.\”",
+        synopsis: "“Mengapa kita harus mendengarkan suara hati kita?” tanya si anak, ketika mendirikan tenda pada hari itu. <br><br> \“Sebab, di mana hatimu berada, di situlah hartamu berada.\” <br><br> Demikian selintas percakapan antara Sang Alkemis dan Santiago, anak gembala yang mengikuti suara hatinya dan berkelana mengejar mimpinya. Perjalanan tersebut membawanya ke Tangier serta padang gurun Mesir, dan di sanalah dia bertemu sang Alkemis yang menuntunnya menuju harta karunnya, serta mengajarinya tentang Jiwa Dunia, cinta, kesabaran, dan kegigihan. <br><br> Perjalanan itu pulalah yang membawanya menemukan cinta sejatinya : Fatima, gadis gurun yang setia menanti kepulangannya. <br><br> Sang Alkemis telah menjadi salah satu buku yang paling banyak dibaca di dunia. Kisah sederhana yang indah dan menjadi sumber inspirasi bagi banyak orang.",
+        cover: {
+            small: "../../assets/Sang Alkemis.jpg",
+            large: "../../assets/Sang Alkemis.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "#Dear Tomorrow: Notes to My Future Self",
+        author: "Maudy Ayunda",
+        year: "2018",
+        color: "#CEB68B",
+        categories: [
+            "non fiction", "self help", "biography", "indonesia",
+        ],
+        preview: "Guilty as charged. <br<br> I am one of those people who adore witty quotes and phrases. <br<br> I love being reminded by simple truths.",
+        synopsis: "Guilty as charged. <br<br> I am one of those people who adore witty quotes and phrases. <br<br> I love being reminded by simple truths. <br<br> I love how short statements can strike a chord in our minds and move us to do something. <br<br> This book is a compilation of my experiences, thoughts, and conversations about myself, love, dreams, and life. <br<br> All throughout this book, I curated takeaways-or things that I want to be reminded of in the future. <br<br> If anything I write here can make you smile, then I've done what I set out to do with this book.",
+        cover: {
+            small: "../../assets/Dear Tomorrow.jpg",
+            large: "../../assets/Dear Tomorrow.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Titan's Curse (Percy Jackson and the Olympians #3)",
+        author: "Rick Riordan",
+        year: "2007",
+        color: "#174072",
+        categories: [
+            "fiction", "fantasy", "young", "adventure",
+        ],
+        preview: "It's not everyday you find yourself in combat with a half-lion, half-human.",
+        synopsis: "It's not everyday you find yourself in combat with a half-lion, half-human. <br><br> But when you're the son of a Greek god, it happens. And now my friend Annabeth is missing, a goddess is in chains and only five half-blood heroes can join the quest to defeat the doomsday monster. <br><br> Oh, and guess what? The Oracle has predicted that not all of us will survive...",
+        cover: {
+            small: "../../assets/The Titan Curse.jpg",
+            large: "../../assets/The Titan Curse.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Woman in White ",
+        author: "Wilkie Collins, Matthew Sweet (Annotations)",
+        year: "2003",
+        color: "#221D22",
+        categories: [
+            "fiction", "classics", "mystery", "horror", "literature"
+        ],
+        preview: "In one moment, every drop of blood in my body was brought to a stop... There, as if it had that moment sprung out of the earth, stood the figure of a solitary Woman, dressed from head to foot in white.",
+        synopsis: "'In one moment, every drop of blood in my body was brought to a stop... There, as if it had that moment sprung out of the earth, stood the figure of a solitary Woman, dressed from head to foot in white' <br><br> The Woman in White famously opens with Walter Hartright's eerie encounter on a moonlit London road. Engaged as a drawing master to the beautiful Laura Fairlie, Walter becomes embroiled in the sinister intrigues of Sir Percival Glyde and his 'charming' friend Count Fosco, who has a taste for white mice, vanilla bonbons, and poison. Pursuing questions of identity and insanity along the paths and corridors of English country houses and the madhouse, The Woman in White is the first and most influential of the Victorian genre that combined Gothic horror with psychological realism. <br><br> Matthew Sweet's introduction explores the phenomenon of Victorian 'sensation' fiction, and discusses Wilkie Collins's biographical and societal influences. Included in this edition are appendices on theatrical adaptations of the novel and its serialisation history.",
+        cover: {
+            small: "../../assets/The Woman In White.jpg",
+            large: "../../assets/The Woman In White.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Jarak Antarbintang",
+        author: "Naimmah Nur Aini",
+        year: "2018",
+        color: "#FDFDFD",
+        categories: [
+            "fiction", "romance", "indonesia", "young"
+        ],
+        preview: "Alfa Centauri Radistya, mahasiswi normal jurusan konservasi di salah salah universitas ternama negeri. Hidupnya baik-baik saja sampai datang Auriga, seniornya di kampus yang datang bagai hipernova dan membuatnya kesal terus-menerus.",
+        synopsis: "Alfa Centauri Radistya, mahasiswi normal jurusan konservasi di salah salah universitas ternama negeri. Hidupnya baik-baik saja sampai datang Auriga, seniornya di kampus yang datang bagai hipernova dan membuatnya kesal terus-menerus. Dari kesal menjadi cinta, Alfa lalu dihadapkan pada misteri tentang seorang Auriga. <br><br> Di antara perasaan cinta dan putus asanya, dia mencoba mengurai satu per satu kehidupan Auriga. Sanggupkah ia membawa Auriga menikmati senja manis di tepi pantai? Ataukah dia akan menyerah dan memilih mundur dan berbalik arah pada sahabat Auriga yang selama ini diam-diam menyukainya sangat dalam? Semesta senang bermain-main. Benarkah semuanya adalah kebetulan yang disengajakan?",
+        cover: {
+            small: "../../assets/Jarak Antarbintang.jpg",
+            large: "../../assets/Jarak Antarbintang.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Cantik itu Luka",
+        author: "Eka Kurniawan",
+        year: "2002",
+        color: "#F6F4ED",
+        categories: [
+            "fiction", "history", "indonesia", "literature"
+        ],
+        preview: "Di akhir masa kolonial, seorang perempuan dipaksa menjadi pelacur. Kehidupan itu terus dijalaninya hingga ia memiliki tiga anak gadis yang kesemuanya cantik.",
+        synopsis: "Di akhir masa kolonial, seorang perempuan dipaksa menjadi pelacur. Kehidupan itu terus dijalaninya hingga ia memiliki tiga anak gadis yang kesemuanya cantik. Ketika mengandung anaknya yang keempat, ia berharap anak itu akan lahir buruk rupa. Itulah yang terjadi, meskipun secara ironik ia memberinya nama si Cantik. <br><br> Lewat novel ini, Eka mengisahkan nasib anak-anak manusia dalam gelombang sejarah bangsa. Manusia-manusia yang telah menjadi korban kekuasaan dan ‘kutukan karma’. Lebih dari itu, lewat tokoh-tokohnya, Eka juga mendedahkan absurditas kecantikan yang bertengger di wajah perempuan. Kisah seorang perempuan cantik keturunan Belanda bernama Dewi Ayu yang menjadi korban kekejaman perang dan perebutan kekuasaan.",
+        cover: {
+            small: "../../assets/Cantik itu Luka.jpg",
+            large: "../../assets/Cantik itu Luka.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Complete World of Greek Mythology",
+        author: "Richard Buxton (著)",
+        year: "2004",
+        color: "#343231",
+        categories: [
+            "non fiction", "history", "fantasy", "classics"
+        ],
+        preview: "Greek myths are among the most complex and influential stories ever told. From the first millennium BC until today, the myths have been repeated in an inexhaustible series of variations and reinterpretations.",
+        synopsis: "Greek myths are among the most complex and influential stories ever told. From the first millennium BC until today, the myths have been repeated in an inexhaustible series of variations and reinterpretations. They can be found in the latest movies and television shows and in software for interactive computer games. This book combines a retelling of Greek myths with a comprehensive account of the world in which they developed their themes, their relevance to Greek religion and society, and their relationship to the landscape. <br><br> \"Contexts, Sources, Meanings\" describes the main literary and artistic sources for Greek myths, and their contexts, such as ritual and theater. <br><br> \"Myths of Origin\" includes stories about the beginning of the cosmos, the origins of the gods, the first humans, and the founding of communities. <br><br> \"The Olympians: Power, Honor, Sexuality\" examines the activities of all the main divinities. <br><br> \"Heroic exploits\" concentrates on the adventures of Perseus, Jason, Herakles, and other heroes. <br><br> \"Family sagas\" explores the dramas and catastrophes that befall heroes and heroines. <br><br> \"A Landscape of Myths\" sets the stories within the context of the mountains, caves, seas, and rivers of Greece, Crete, Troy, and the Underworld. <br><br> \"Greek Myths after the Greeks\" describes the rich tradition of retelling, from the Romans, through the Renaissance, to the twenty-first century. <br><br> Complemented by lavish illustrations, genealogical tables, box features, and specially commissioned drawings, this will be an essential book for anyone interested in these classic tales and in the world of the ancient Greeks.",
+        cover: {
+            small: "../../assets/The Complete World of Greek Mythology.jpg",
+            large: "../../assets/The Complete World of Greek Mythology.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Mythology: Timeless Tales of Gods and Heroes",
+        author: "Edith Hamilton",
+        year: "2011",
+        color: "#090909",
+        categories: [
+            "non fiction", "history", "literature", "classics"
+        ],
+        preview: "For nearly seventy years readers have chosen this book above all others to discover the thrilling, enchanting, and fascinating world of Western mythology.",
+        synopsis: "For nearly seventy years readers have chosen this book above all others to discover the thrilling, enchanting, and fascinating world of Western mythology. From Odysseus's adventure-filled journey to the Norse god Odin's effort to postpone the final day of doom, Edith Hamilton's classic collection not only retells these stories with brilliant clarity but shows us how the ancients saw their own place in the world and how their themes echo in our consciousness today. An essential part of every home library, Mythology is the definitive volume for anyone who wants to know the key dramas, the primary characters, the triumphs, failures, fears, and hopes first narrated thousands of years ago - and is still spellbinding to this day. <br><br> Edith Hamilton is the acclaimed author of The Greek Way and The Roman Way, which have been read by generations of readers around the world. She was made an honorary citizen of Athens in 1957. ",
+        cover: {
+            small: "../../assets/Mythology Timeless Tales of Gods and Heroes.jpg",
+            large: "../../assets/Mythology Timeless Tales of Gods and Heroes.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Sayap-Sayap Patah",
+        author: "Kahlil Gibran, Sufian Abas",
+        year: "2011",
+        color: "#4B3635",
+        categories: [
+            "fiction", "indonesia", "literature", "classics", "romance"
+        ],
+        preview: "Aku akan jadikan jiwaku sampul untuk jiwamu dan hatiku suaka untuk hatimu dan dadaku pusara untuk dukamu",
+        synopsis: "Aku akan jadikan jiwaku sampul untuk jiwamu dan hatiku suaka untuk hatimu dan dadaku pusara untuk dukamu",
+        cover: {
+            small: "../../assets/Sayap-Sayap Patah.jpg",
+            large: "../../assets/Sayap-Sayap Patah.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "Aku: Berdasarkan Perjalanan Hidup Dan Karya Penyair Chairil Anwar",
+        author: "Sjuman Djaya",
+        year: "1987",
+        color: "#CECBCB",
+        categories: [
+            "non fiction", "indonesia", "literature", "history", "biography"
+        ],
+        preview: "Kalau sampai waktuku <br> Kumau tak seorangpun kan merayu <br> Tidak juga kau <br> Tak perlu sedu sedan itu <br> Aku ini binatang jalang <br> Dari kumpulannya yang terbuang",
+        synopsis: "Kalau sampai waktuku <br> Kumau tak seorangpun kan merayu <br> Tidak juga kau <br> Tak perlu sedu sedan itu <br> Aku ini binatang jalang <br> Dari kumpulannya yang terbuang",
+        cover: {
+            small: "../../assets/Aku.jpg",
+            large: "../../assets/Aku.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
         title: "Laut Bercerita",
         author: "Leila S. Chudori",
         year: "2017",
@@ -115,7 +357,7 @@ const books = [
         year: "2000",
         color: "#064D90",
         categories: [
-            "fiction", "classics", "fantasy", "young adult"
+            "fiction", "classics", "fantasy", "young"
         ],
         preview: "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow.",
         synopsis: "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. \"Please,\" asks the stranger, \"draw me a sheep.\" And the pilot realizes that when life's events are too difficult to understand, there is no choice but to succumb to their mysteries. He pulls out pencil and paper... And thus begins this wise and enchanting fable that, in teaching the secret of what is really important in life, has changed forever the world for its readers. <br><br> Few stories are as widely read and as universally cherished by children and adults alike as The Little Prince, presented here in a stunning new translation with carefully restored artwork. The definitive edition of a worldwide classic, it will capture the hearts of readers of all ages.",
@@ -181,7 +423,7 @@ const books = [
         year: "2017",
         color: "White",
         categories: [
-            "fiction", "young adult"
+            "fiction", "young"
         ],
         preview: "Sixteen-year-old Starr Carter moves between two worlds: the poor neighborhood where she lives and the fancy suburban prep school she attends.",
         synopsis: "Sixteen-year-old Starr Carter moves between two worlds: the poor neighborhood where she lives and the fancy suburban prep school she attends. The uneasy balance between these worlds is shattered when Starr witnesses the fatal shooting of her childhood best friend Khalil at the hands of a police officer. Khalil was unarmed. <br><br> Soon afterward, his death is a national headline. Some are calling him a thug, maybe even a drug dealer and a gangbanger. Protesters are taking to the streets in Khalil’s name. Some cops and the local drug lord try to intimidate Starr and her family. What everyone wants to know is: what really went down that night? And the only person alive who can answer that is Starr. <br><br> But what Starr does—or does not—say could upend her community. It could also endanger her life. <br><br> Inspired by the Black Lives Matter movement, this is a powerful and gripping YA novel about one girl's struggle for justice.",
@@ -203,7 +445,7 @@ const books = [
         year: "2012",
         color: "#223E40",
         categories: [
-            "fiction", "adventure", "young adult", "fantasy"
+            "fiction", "adventure", "young", "fantasy"
         ],
         preview: "Alex and Conner Bailey's world is about to change, in this fast-paced adventure that uniquely combines our modern day world with the enchanting realm of classic fairy tales.",
         synopsis: "Alex and Conner Bailey's world is about to change, in this fast-paced adventure that uniquely combines our modern day world with the enchanting realm of classic fairy tales. <br><br> The Land of Stories tells the tale of twins Alex and Conner. Through the mysterious powers of a cherished book of stories, they leave their world behind and find themselves in a foreign land full of wonder and magic where they come face-to-face with the fairy tale characters they grew up reading about. <br><br> But after a series of encounters with witches, wolves, goblins, and trolls alike, getting back home is going to be harder than they thought.",
@@ -313,7 +555,7 @@ const books = [
         year: "2017",
         color: "#fcf4eb",
         categories: [
-            "fiction", "young adult"
+            "fiction", "young"
         ],
         preview: "When you care for yourself first, the world begins to find you worthy of care.",
         synopsis: "Isidore Mazal is eleven years old, the youngest of six siblings living in a small French town. He doesn't quite fit in. Berenice, Aurore, and Leonard are on track to have doctorates by age twenty-four. Jeremie performs with a symphony, and Simone, older than Isidore by eighteen months, expects a great career as a novelist. She's already put Isidore to work on her biography. The only time they leave their rooms is to gather on the old, stained couch and dissect prime-time television dramas in light of Aristotle's Poetics. <br> <br> Isidore has never skipped a grade or written a dissertation, but he notices things the others don't and asks questions they fear to ask. So when tragedy strikes the Mazal family, Isidore is the only one to recognize how everyone is struggling with their grief and perhaps the only one who can help them--if he doesn't run away from home first. <br><br> Isidore's unstinting empathy, combined with his simmering anger, makes for a complex character study, in which the elegiac and comedic build toward a heartbreaking conclusion. With How to Behave in a Crowd, Camille Bordas immerses readers in the interior life of a boy puzzled by adulthood and beginning to realize that the adults around him are just as lost.",
