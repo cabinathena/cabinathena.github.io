@@ -15,8 +15,8 @@ const books = [
         },
         contents: [
             {
-                title: "Chapter 1",
-                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+                title: "Review",
+                paragraph: "<p>Coming Soon</p>"
             }
         ]
     }
@@ -56,6 +56,116 @@ const books = [
         cover: {
             small: "../../assets/The Titan Curse.jpg",
             large: "../../assets/The Titan Curse.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Battle of the Labyrinth (Percy Jackson and the Olympians #4)",
+        author: "Rick Riordan",
+        year: "2008",
+        color: "#6E2429",
+        categories: [
+            "fiction", "fantasy", "young", "adventure"
+        ],
+        preview: "Percy Jackson isn't expecting freshman orientation to be any fun. But when a mysterious mortal acquaintance appears at his potential new school, followed by demon cheerleaders, things quickly move from bad to worse.",
+        synopsis: "Percy Jackson isn't expecting freshman orientation to be any fun. But when a mysterious mortal acquaintance appears at his potential new school, followed by demon cheerleaders, things quickly move from bad to worse. <br><br> In this fourth installment of the blockbuster series, time is running out as war between the Olympians and the evil Titan lord Kronos draws near. Even the safe haven of Camp Half-Blood grows more vulnerable by the minute as Kronos's army prepares to invade its once impenetrable borders. To stop the invasion, Percy and his demigod friends must set out on a quest through the Labyrinth - a sprawling underground world with stunning surprises at every turn.",
+        cover: {
+            small: "../../assets/The Battle of the Labyrinth.jpg",
+            large: "../../assets/The Battle of the Labyrinth.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Last Olympian (Percy Jackson and the Olympians #5)",
+        author: "Rick Riordan",
+        year: "2009",
+        color: "#0E1917",
+        categories: [
+            "fiction", "fantasy", "young", "adventure"
+        ],
+        preview: "All year the half-bloods have been preparing for battle against the Titans, knowing the odds of victory are grim.",
+        synopsis: "All year the half-bloods have been preparing for battle against the Titans, knowing the odds of victory are grim. Kronos's army is stronger than ever, and with every god and half-blood he recruits, the evil Titan's power only grows. <br><br> While the Olympians struggle to contain the rampaging monster Typhon, Kronos begins his advance on New York City, where Mount Olympus stands virtually unguarded. Now it's up to Percy Jackson and an army of young demigods to stop the Lord of Time. <br><br> In this momentous final book in the New York Times best-selling series, the long-awaited prophecy surrounding Percy's sixteenth birthday unfolds. And as the battle for Western civilization rages on the streets of Manhattan, Percy faces a terrifying suspicion that he may be fighting against his own fate.",
+        cover: {
+            small: "../../assets/The Last Olympian.jpg",
+            large: "../../assets/The Last Olympian.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Lost Hero (The Heroes of Olympus #1)",
+        author: "Rick Riordan",
+        year: "2010",
+        color: "#192018",
+        categories: [
+            "fiction", "fantasy", "young", "adventure"
+        ],
+        preview: "JASON HAS A PROBLEM. He doesn’t remember anything before waking up in a bus full of kids on a field trip.",
+        synopsis: "JASON HAS A PROBLEM. He doesn’t remember anything before waking up in a bus full of kids on a field trip. Apparently he has a girlfriend named Piper, and his best friend is a guy named Leo. They’re all students at the Wilderness School, a boarding school for \“bad kids,\" as Leo puts it. What did Jason do to end up here? And where is here, exactly? Jason doesn't know anything—except that everything seems very wrong. <br><br> PIPER HAS A SECRET. Her father has been missing for three days, ever since she had that terrifying nightmare about his being in trouble. Piper doesn’t understand her dream, or why her boyfriend suddenly doesn’t recognize her. When a freak storm hits during the school trip, unleashing strange creatures and whisking her, Jason, and Leo away to someplace called Camp Half-Blood, she has a feeling she’s going to find out, whether she wants to or not. <br><br> LEO HAS A WAY WITH TOOLS. When he sees his cabin at Camp Half-Blood, filled with power tools and machine parts, he feels right at home. But there’s weird stuff, too—like the curse everyone keeps talking about, and some camper who's gone missing. Weirdest of all, his bunkmates insist that each of them—including Leo—is related to a god. Does this have anything to do with Jason's amnesia, or the fact that Leo keeps seeing ghosts?",
+        cover: {
+            small: "../../assets/The Lost Hero.jpg",
+            large: "../../assets/The Lost Hero.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Son of Neptune (The Heroes of Olympus #2)",
+        author: "Rick Riordan",
+        year: "2011",
+        color: "#222F43",
+        categories: [
+            "fiction", "fantasy", "young", "adventure"
+        ],
+        preview: "PERCY IS CONFUSED. When he awoke from his long sleep, he didn't know much more than his name. His brain fuzz is lingering, even after the wolf Lupa told him he is a demigod and trained him to fight with the pen/sword in his pocket.",
+        synopsis: "PERCY IS CONFUSED. When he awoke from his long sleep, he didn't know much more than his name. His brain fuzz is lingering, even after the wolf Lupa told him he is a demigod and trained him to fight with the pen/sword in his pocket. Somehow Percy manages to make it to a camp for half-bloods, despite the fact that he has to keep killing monsters along the way. But the camp doesn't ring any bells with him. The only thing he can recall from his past is another name: Annabeth. <br><br> HAZEL IS SUPPOSED TO BE DEAD. When she lived before, she didn't do a very good job of it. Sure, she was an obedient daughter, even when her mother was possessed by greed. But that was the problem—when the Voice took over her mother and commanded Hazel to use her \"gift\" for an evil purpose, Hazel couldn't say no. Now because of her mistake, the future of the world is at risk. Hazel wishes she could ride away from it all on the stallion that appears in her dreams. <br><br> FRANK IS A KLUTZ. His grandmother says he is descended from heroes and can be anything he wants to be, but he doesn't see it. He doesn't even know who his father is. He keeps hoping Apollo will claim him, because the only thing he is good at is archery—although not good enough to win camp war games. His bulky physique makes him feel like an ox, especially in front of Hazel, his closest friend at camp. He trusts her completely—enough to share the secret he holds close to his heart.",
+        cover: {
+            small: "../../assets/The Son of Neptune.jpg",
+            large: "../../assets/The Son of Neptune.jpg"
+        },
+        contents: [
+            {
+                title: "Chapter 1",
+                paragraph: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus convallis sem. Nunc sed tristique augue. Aenean at nulla vel lacus volutpat bibendum vitae ut nibh. Aliquam eu metus et purus rutrum malesuada. Aenean in auctor mauris, non vulputate libero. Nullam auctor, purus ut cursus convallis, lectus tellus dignissim lectus, id tempor ipsum leo ut nulla. Vestibulum vitae elit erat.<br>&nbsp;<br>&nbsp;</p>"
+            }
+        ]
+    }
+    ,
+    {
+        title: "The Mark of Athena (The Heroes of Olympus #3)",
+        author: "Rick Riordan",
+        year: "2012",
+        color: "#671A28",
+        categories: [
+            "fiction", "fantasy", "young", "adventure"
+        ],
+        preview: "Annabeth is terrified. Just when she's about to be reunited with Percy—after six months of being apart, thanks to Hera—it looks like Camp Jupiter is preparing for war.",
+        synopsis: "Annabeth is terrified. Just when she's about to be reunited with Percy—after six months of being apart, thanks to Hera—it looks like Camp Jupiter is preparing for war. As Annabeth and her friends Jason, Piper, and Leo fly in on the Argo II, she can't blame the Roman demigods for thinking the ship is a Greek weapon. With its steaming bronze dragon figurehead, Leo's fantastical creation doesn't appear friendly. Annabeth hopes that the sight of their praetor Jason on deck will reassure the Romans that the visitors from Camp Half-Blood are coming in peace. <br><br> And that's only one of her worries. In her pocket, Annabeth carries a gift from her mother that came with an unnerving command: Follow the Mark of Athena. Avenge me. Annabeth already feels weighed down by the prophecy that will send seven demigods on a quest to find—and close—the Doors of Death. What more does Athena want from her? <br><br> Annabeth's biggest fear, though, is that Percy might have changed. What if he's now attached to Roman ways? Does he still need his old friends? As the daughter of the goddess of war and wisdom, Annabeth knows she was born to be a leader—but never again does she want to be without Seaweed Brain by her side <br><br> Narrated by four different demigods, The Mark of Athena is an unforgettable journey across land and sea to Rome, where important discoveries, surprising sacrifices, and unspeakable horrors await. Climb aboard the Argo II, if you dare. . . .",
+        cover: {
+            small: "../../assets/The Mark of Athena.jpg",
+            large: "../../assets/The Mark of Athena.jpg"
         },
         contents: [
             {

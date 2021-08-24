@@ -520,6 +520,11 @@ ul.dropdown li:hover {
 #slide-1 {
   background-color: #988478;
 }
+@media all and (max-height: 800px) {
+  .slide-in ul {
+    margin-left: 120px;
+  }
+}
 .slide-in ul {
   padding-right: 40px;
   font-family: "Cinzel", serif;
