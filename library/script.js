@@ -504,13 +504,15 @@ window.onload = () => {
     });
 };
 
+var reviews = [];
+
 function loadReview() {
     db.collection('library')
         .doc('review').get()
         .then((doc) => {
-            let reviews = doc.data().reviews;
+            reviews = doc.data().reviews.slice(-10);
 
-            reviews.forEach((review, index) => {
+            reviews.forEach((review) => {
                 carousel.innerHTML += `
                 <div class="carousel-cell">
                     <div class="review-flex">
@@ -523,8 +525,6 @@ function loadReview() {
                 </div>
                 `;
             });
-
-            console.log('Review loaded');
         });
 }
 
@@ -535,7 +535,8 @@ function initCarousel() {
     //   for an individual element
     flkty = new Flickity(carousel, {
         // options
-        "wrapAround": true
+        wrapAround: true,
+        initialIndex: reviews.length - 1
     });
     
     carousel.addEventListener('click', (e) => {

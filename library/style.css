@@ -745,6 +745,15 @@ ul.dropdown li:hover {
   font-family: "Noto Sans", sans-serif;
   font-size: 18px;
 }
+.review-content::-webkit-scrollbar {
+  display: none;
+}
+.review-content {
+  height: calc(100% - 58px);
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} 
 
 .overlay-review {
   display: none;
