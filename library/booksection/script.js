@@ -34,11 +34,11 @@ function preload() {
               <p class="author">by ${book.author}</p>
               <p class="published">${book.year}</p>
               <p class="synopsis">${book.synopsis}</p>
-              <a href="#" class="button preview">Preview</a>
+              <a href="#" class="button preview">Review</a>
           </div>
           <div class="overlay-preview medium-8 small-9 columns">
               <a href="#" class="back-preview-btn">Back</a>
-              <h4 class="preview-title">Preview</h4>
+              <h4 class="preview-title">Review</h4>
               <div class="preview-content">
                   <h5>${book.contents[0].title}</h5>
                   ${book.contents[0].paragraph}
