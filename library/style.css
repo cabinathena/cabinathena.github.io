@@ -773,3 +773,18 @@ ul.dropdown li:hover {
 .review-container {
   width: 100%;
 }
+
+.carousel {
+  display: none;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.carousel-cell {
+  width: 60%;
+  margin-right: 20px;
+  border-radius: 10px;
+  background: #EDE6E0;
+  padding: 20px;
+  height: 480px;
+  position: absolute;
+}
