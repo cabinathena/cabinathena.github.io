@@ -17,86 +17,88 @@ const overlay = select('.overlay');
 // const splitTitles = new SplitText(titles, {type: "lines, chars", linesClass: "line", charsClass: "char", position: "relative" });
 let slideID = 0;
 
+const carousel = select('.carousel');
+
 function initHeader() {
-    
+
     // animate the logo and fake burger button into place
-    
-    let tl = gsap.timeline({delay: 0.5});
-    
+
+    let tl = gsap.timeline({ delay: 0.5 });
+
     tl.from('.logo', {
         y: -40,
         opacity: 0,
         duration: 2,
         ease: 'power4'
     })
-    .from('.nav-btn__svg rect', {
-        scale: 0,
-        transformOrigin: "center right",
-        duration: 0.6,
-        ease: 'power4',
-        stagger: 0.1
-    }, 0.6)
-    .to('.nav-rect', {
-        scale: 0.8,
-        transformOrigin: "center left",
-        duration: 0.4,
-        ease: 'power2',
-        stagger: 0.1
-    }, "-=0.6")
-    
+        .from('.nav-btn__svg rect', {
+            scale: 0,
+            transformOrigin: "center right",
+            duration: 0.6,
+            ease: 'power4',
+            stagger: 0.1
+        }, 0.6)
+        .to('.nav-rect', {
+            scale: 0.8,
+            transformOrigin: "center left",
+            duration: 0.4,
+            ease: 'power2',
+            stagger: 0.1
+        }, "-=0.6")
+
     // create mouse animations for the faux burger button
-    
+
     let navBtn = select('.nav-btn');
-    
+
     navBtn.addEventListener("mouseover", (e) => {
         gsap.to('.nav-rect', {
             scaleX: 1,
             transformOrigin: "top left",
-            duration: 0.4, 
+            duration: 0.4,
             ease: "power4"
         });
     });
-    
+
     navBtn.addEventListener("mouseout", (e) => {
         gsap.to('.nav-rect', {
             scaleX: 0.8,
             transformOrigin: "top left",
-            duration: 0.6, 
+            duration: 0.6,
             ease: "power4"
         });
     });
 }
 
 function initIntro() {
-    
+
     // animate the intro elements into place
-    
-    let tl = gsap.timeline({delay: 1.2});
-    
+
+    let tl = gsap.timeline({ delay: 1.2 });
+
     tl
-    .from('.intro__txt', {
-        x: -100,
-        opacity: 0,
-        ease: 'power4',
-        duration: 3
-    }, 0.7)
-    .from('.intro__img--1', {
-        // x: -50,
-        y: 50,
-        opacity: 0,
-        ease: 'power2',
-        duration: 10
-    }, 1)
-    .from('.intro__img--2', {
-        // x: 50,
-        y: -50,
-        opacity: 0,
-        ease: 'power2',
-        duration: 10
-    }, 1);
-    
+        .from('.intro__txt', {
+            x: -100,
+            opacity: 0,
+            ease: 'power4',
+            duration: 3
+        }, 0.7)
+        .from('.intro__img--1', {
+            // x: -50,
+            y: 50,
+            opacity: 0,
+            ease: 'power2',
+            duration: 10
+        }, 1)
+        .from('.intro__img--2', {
+            // x: 50,
+            y: -50,
+            opacity: 0,
+            ease: 'power2',
+            duration: 10
+        }, 1);
+
     // set up scrollTrigger animation for the when the intro scrolls out
-    
+
     let stl = gsap.timeline({
         scrollTrigger: {
             trigger: '.intro',
@@ -105,22 +107,22 @@ function initIntro() {
             end: "bottom top"
         }
     });
-    
+
     stl.to('.intro__title', {
         x: 400,
         ease: 'power4.in',
         duration: 3,
-        
+
     })
-    .to('.intro__txt', {
-        y: 100,
-        ease: 'power4.in',
-        duration: 3,
-    }, 0);
+        .to('.intro__txt', {
+            y: 100,
+            ease: 'power4.in',
+            duration: 3,
+        }, 0);
 }
 
 function initRules() {
-    let tl = gsap.timeline({delay: 1.2});
+    let tl = gsap.timeline({ delay: 1.2 });
     let slideIns = selectAll('.slide-in');
 
     slideIns.forEach((slide) => {
@@ -152,86 +154,86 @@ function initRules() {
 }
 
 function initLinks() {
-    
+
     // ScrollToPlugin links
-    
-    links.forEach((link, index, e) => {     
-        
+
+    links.forEach((link, index, e) => {
+
         let linkST = link.querySelector('.slide__scroll-line');
-        
+
         link.addEventListener("click", (e) => {
             e.preventDefault();
             gsap.to(window, {
-                duration: 2, 
-                scrollTo:{
+                duration: 2,
+                scrollTo: {
                     y: "#slide-" + (index + 2)
                 },
                 ease: "power2.inOut"
             });
             slideID++;
         });
-        
+
         link.addEventListener("mouseover", (e) => {
             gsap.to(linkST, {
-                y:40,
+                y: 40,
                 transformOrigin: "bottom center",
-                duration: 0.6, 
+                duration: 0.6,
                 ease: "power4"
             });
         });
-        
+
         link.addEventListener("mouseout", (e) => {
             gsap.to(linkST, {
                 y: 0,
                 transformOrigin: "bottom center",
-                duration: 0.6, 
+                duration: 0.6,
                 ease: "power4"
             });
         });
-        
+
     });
-    
+
     // ScrollToPlugin link back to the top
-    
+
     let top = select('.footer__link-top');
-    
+
     top.addEventListener("click", (e) => {
         e.preventDefault();
         scrollTop();
     });
-    
+
     top.addEventListener("mouseover", (e) => {
         gsap.to('.footer__link-top-line', {
             scaleY: 3,
             transformOrigin: "bottom center",
-            duration: 0.6, 
+            duration: 0.6,
             ease: "power4"
         });
     });
-    
+
     top.addEventListener("mouseout", (e) => {
         gsap.to('.footer__link-top-line', {
             scaleY: 1,
             transformOrigin: "bottom center",
-            duration: 0.6, 
+            duration: 0.6,
             ease: "power4"
         });
     });
-    
+
     // Dummy slide links
-    
+
     let slideLinks = selectAll('.slide-link');
-    
+
     slideLinks.forEach((slideLink, index, e) => {
-        
+
         let slideL = slideLink.querySelector('.slide-link__line');
-        
+
         slideLink.addEventListener("mouseover", (e) => {
             gsap.to(slideL, {
                 x: 20,
                 scaleX: 0.3,
                 transformOrigin: "right center",
-                duration: 0.8, 
+                duration: 0.8,
                 ease: "power4"
             });
         });
@@ -240,7 +242,7 @@ function initLinks() {
                 x: 0,
                 scaleX: 1,
                 transformOrigin: "right center",
-                duration: 0.8, 
+                duration: 0.8,
                 ease: "power4"
             });
         });
@@ -248,58 +250,58 @@ function initLinks() {
 }
 
 function initSlides() {
-    
+
     // Animation of each slide scrolling into view
-    
-    slides.forEach((slide, i) => {   
-        
+
+    slides.forEach((slide, i) => {
+
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: slide,
                 start: "40% 50%", // position of trigger meets the scroller position
             }
         });
- 
+
         tl.from(slide.querySelectorAll('.col__content-title'), {
             ease: "power4",
             y: "+=5vh",
             duration: 2.5,
         })
-        .from(slide.querySelectorAll('.line__inner'), {
-            y: 200,
-            duration: 2,
-            ease: "power4",
-            stagger: 0.1
-        }, 0)
-        .from(slide.querySelectorAll('.col__content-txt'), {
-            x: 100,
-            y: 50,
-            opacity: 0,
-            duration: 2,
-            ease: "power4"
-        }, 0.4)
-        .from(slide.querySelectorAll('.slide-link'), {
-            x: -100,
-            y: 100,
-            opacity: 0,
-            duration: 2,
-            ease: "power4"
-        }, 0.3)
-        .from(slide.querySelectorAll('.slide__scroll-link'), {
-            y: 200,
-            duration: 3,
-            ease: "power4"
-        }, 0.4)
-        .to(slide.querySelectorAll('.slide__scroll-line'), {
-            scaleY: 0.6,
-            transformOrigin: "bottom left",
-            duration: 2.5, 
-            ease: "elastic(1,0.5)"
-        }, 1.4)
-	});
-    
+            .from(slide.querySelectorAll('.line__inner'), {
+                y: 200,
+                duration: 2,
+                ease: "power4",
+                stagger: 0.1
+            }, 0)
+            .from(slide.querySelectorAll('.col__content-txt'), {
+                x: 100,
+                y: 50,
+                opacity: 0,
+                duration: 2,
+                ease: "power4"
+            }, 0.4)
+            .from(slide.querySelectorAll('.slide-link'), {
+                x: -100,
+                y: 100,
+                opacity: 0,
+                duration: 2,
+                ease: "power4"
+            }, 0.3)
+            .from(slide.querySelectorAll('.slide__scroll-link'), {
+                y: 200,
+                duration: 3,
+                ease: "power4"
+            }, 0.4)
+            .to(slide.querySelectorAll('.slide__scroll-line'), {
+                scaleY: 0.6,
+                transformOrigin: "bottom left",
+                duration: 2.5,
+                ease: "elastic(1,0.5)"
+            }, 1.4)
+    });
+
     // External footer link scroll animation
-    
+
     gsap.from('.footer__link', {
         scrollTrigger: {
             trigger: '.footer',
@@ -313,13 +315,13 @@ function initSlides() {
 }
 
 function initParallax() {
-    
+
     slides.forEach((slide, i) => {
         let imageWrappers = slide.querySelectorAll('.col__image-wrap');
-        
+
         gsap.fromTo(imageWrappers, {
             y: "-30vh"
-        },{
+        }, {
             y: "30vh",
             scrollTrigger: {
                 trigger: slide,
@@ -338,7 +340,7 @@ function initParallax() {
 
 function scrollTop() {
     gsap.to(window, {
-        duration: 2, 
+        duration: 2,
         scrollTo: {
             y: "#slide-0"
         },
@@ -347,15 +349,15 @@ function scrollTop() {
     gsap.to('.footer__link-top-line', {
         scaleY: 1,
         transformOrigin: "bottom center",
-        duration: 0.6, 
+        duration: 0.6,
         ease: "power4"
     });
 }
 
 function scrollToIndex(index) {
     gsap.to(window, {
-        duration: 1.0, 
-        scrollTo:{
+        duration: 1.0,
+        scrollTo: {
             y: "#slide-" + (index)
         },
         ease: "power2.inOut"
@@ -370,9 +372,9 @@ function initKeys() {
             if (slideID <= slides.length) {
                 slideID++;
                 gsap.to(window, {
-                    duration: 2, 
-                    scrollTo:{
-                        y: "#slide-" + slideID 
+                    duration: 2,
+                    scrollTo: {
+                        y: "#slide-" + slideID
                     },
                     ease: "power2.inOut"
                 });
@@ -391,9 +393,9 @@ function init() {
     initHeader();
     initIntro();
     initRules();
-	initLinks();
-	initSlides();
-	initParallax();
+    initLinks();
+    initSlides();
+    initParallax();
     initKeys();
 }
 
@@ -458,7 +460,7 @@ window.onload = () => {
 
     menuButton.onclick = toggleNavBar;
 
-	init();
+    init();
 
     loadReview();
 
@@ -478,16 +480,17 @@ window.onload = () => {
 
     select('#review-button').onclick = () => {
         $('.overlay').fadeIn();
-        $('.overlay-review').fadeIn();
+        $('.carousel').fadeIn();
+        if (!flkty) initCarousel();
     }
 
     select('.overlay-wing-content').addEventListener('click', e => e.stopPropagation());
-    select('.overlay-review').addEventListener('click', e => e.stopPropagation());
+    select('.carousel').addEventListener('click', e => e.stopPropagation());
 
     overlay.addEventListener('click', (e) => {
         $('.overlay').fadeOut();
         $('.overlay-wing-content').fadeOut();
-        $('.overlay-review').fadeOut();
+        $('.carousel').fadeOut();
     });
 
     selectAll('.grid-img-container').forEach((elm, i) => {
@@ -501,17 +504,43 @@ window.onload = () => {
     });
 };
 
+var reviews = [];
+
 function loadReview() {
     db.collection('library')
         .doc('review').get()
         .then((doc) => {
-            let review = doc.data();
-            select('.review-title').innerHTML = review.title;
-            select('.review-content').innerHTML = review.content;
-            if (review.cover) {
-                select('.review-img').src = review.cover;
-            }
+            reviews = doc.data().reviews.slice(-10);
 
-            console.log('Review loaded');
+            reviews.forEach((review) => {
+                carousel.innerHTML += `
+                <div class="carousel-cell">
+                    <div class="review-flex">
+                        <img class="review-img" src="${review.cover}">
+                        <div class="review-container">
+                            <div class="review-title">${review.title}</div>
+                            <div class="review-content">${review.content}</div>
+                        </div>
+                    </div>
+                </div>
+                `;
+            });
         });
+}
+
+var flkty = null;
+
+function initCarousel() {
+    // element argument can be a selector string
+    //   for an individual element
+    flkty = new Flickity(carousel, {
+        // options
+        wrapAround: true,
+        initialIndex: reviews.length - 1
+    });
+    
+    carousel.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+    });
 }
