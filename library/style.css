@@ -783,6 +783,7 @@ ul.dropdown li:hover {
   margin-right: 10px;
   max-width: 300px;
   width: 40%;
+  object-fit: contain;
 }
 .review-container {
   width: 100%;
