@@ -147,6 +147,7 @@ function displayGuestForm() {
     setCookie("last-name", $('#guest-last-name').val(), 10 * 60);
     setCookie("visiting-date", new Date(), 10 * 60);
 
+    isAllowCloseOverlay = true;
     closeOverlay();
 
     return false;
@@ -478,10 +479,14 @@ $('.overlay-full').on('click', closeOverlay);
 $('#close-nav').on('click', closeOverlay);
 $('.close-nav-btn').on('click', closeOverlay);
 
+var isAllowCloseOverlay = true;
+
 function closeOverlay() {
+  if (!isAllowCloseOverlay) return;
+  
   $('.main-container').removeClass('nav-menu-open');
   $('.main-container').removeClass('prevent-scroll');
-  
+
   $('.main-overlay').fadeOut();
   $('.main-overlay').find('.overlay-details').remove();
   $('.main-overlay').find('.rent-form').remove();
@@ -672,4 +677,8 @@ function getCookie(key) {
 // Wait till dom load to start the Shuffle js funtionality
 document.addEventListener('DOMContentLoaded', function () {
   window.book_list = new bookList(document.getElementById('grid'));
+  if (!getCookie("first-name")) {
+    isAllowCloseOverlay = false;
+    displayGuestForm();
+  }
 });
