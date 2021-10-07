@@ -675,6 +675,7 @@ a.button:hover, a.button:focus {
   max-height: 800px !important;
   font-family: "Cinzel", serif;
   background-color: #EDE6E0;
+  width: 90vw;
 }
 .guest-form button,
 .return-form button,
