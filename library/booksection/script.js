@@ -94,6 +94,65 @@ function displayBookDetails(el) {
   });
 }
 
+function displayGuestForm() {
+  $('.main-overlay').fadeIn();
+  $('.main-overlay').prepend(`
+  <form class="guest-form hidden">
+      <div class="guest-form-title">GUEST BOOK</div>
+      <div class="row">
+          <div class="columns medium-6">
+              <label>First Name
+                  <input type="text" id="guest-first-name">
+              </label>
+          </div>
+          <div class="columns medium-6">
+              <label>Last Name
+                  <input type="text" id="guest-last-name">
+              </label>
+          </div>
+      </div>
+      <div class="row">
+          <div class="columns">
+              <label>Cabin
+                  <select id="guest-cabin">
+                      <option value="Aphrodite">Aphrodite</option>
+                      <option value="Apollo">Apollo</option>
+                      <option value="Ares">Ares</option>
+                      <option value="Athena">Athena</option>
+                      <option value="Demeter">Demeter</option>
+                      <option value="Dionysus">Dionysus</option>
+                      <option value="Hephaestus">Hephaestus</option>
+                      <option value="Hermes">Hermes</option>
+                  </select>
+              </label>
+          </div>
+      </div>
+      <div class="row">
+          <div class="columns" style="width: 100%; text-align: center;">
+              <button class="button" id="guest-submit">SUBMIT</button>
+          </div>
+      </div>
+  </form>
+  `);
+
+  $this = $('.guest-form');
+  $this.removeClass('hidden');
+  $this.fadeIn();
+
+  $('#guest-submit').on('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    setCookie("first-name", $('#guest-first-name').val(), 10 * 60);
+    setCookie("last-name", $('#guest-last-name').val(), 10 * 60);
+    setCookie("visiting-date", new Date(), 10 * 60);
+
+    closeOverlay();
+
+    return false;
+  });
+}
+
 function displayReturnForm() {
   $('.main-container').removeClass('nav-menu-open');
   $('.main-overlay').prepend(`
@@ -428,6 +487,7 @@ function closeOverlay() {
   $('.main-overlay').find('.rent-form').remove();
   $('.main-overlay').find('.return-form').remove();
   $('.main-overlay').find('.request-form').remove();
+  $('.main-overlay').find('.guest-form').remove();
 }
 
 /*
@@ -598,6 +658,16 @@ bookList.prototype._handleSearchKeyup = function (evt) {
     return titleText.indexOf(searchText) !== -1;
   });
 };
+
+function setCookie(key, value, expireDuration) {
+  cookie = `${key}=${value}; max-age=${expireDuration}`;
+  document.cookie = cookie;
+}
+
+function getCookie(key) {
+  var match = document.cookie.match(new RegExp(`(^| )${key}=([^;]+)`));
+  if (match) return match[2];
+}
 
 // Wait till dom load to start the Shuffle js funtionality
 document.addEventListener('DOMContentLoaded', function () {

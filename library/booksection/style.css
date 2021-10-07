@@ -650,6 +650,7 @@ a.button:hover, a.button:focus {
 .main-overlay .overlay-details,
 .main-overlay .rent-form,
 .main-overlay .return-form, 
+.main-overlay .guest-form, 
 .main-overlay .request-form {
   position: absolute;
   display: block;
@@ -669,19 +670,26 @@ a.button:hover, a.button:focus {
 }
 .main-overlay .rent-form,
 .main-overlay .return-form,
+.main-overlay .guest-form,
 .main-overlay .request-form {
   max-height: 800px !important;
   font-family: "Cinzel", serif;
   background-color: #EDE6E0;
 }
-.return-form button, .rent-form button, .request-form button {
+.guest-form button,
+.return-form button,
+.rent-form button,
+.request-form button {
   background-color: #A6958B;
 }
-.return-form button:hover, .rent-form button:hover, .request-form button:hover {
+.guest-form button:hover,
+.return-form button:hover,
+.rent-form button:hover,
+.request-form button:hover {
   background-color: #7b6d65;
 }
-.rent-form input, .return-form input, .request-form input,
-.rent-form select, .return-form select, .request-form select {
+.guest-form input, .rent-form input, .return-form input, .request-form input,
+.guest-form input, .rent-form select, .return-form select, .request-form select {
   font-family: "Noto Sans", sans-serif;
 }
 .main-overlay .overlay-image {
@@ -847,14 +855,14 @@ a.button:hover, a.button:focus {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 30%, white 80%);
 }
 
-.overlay-details, .rent-form, .return-form, .request-form {
+.overlay-details, .guest-form, .rent-form, .return-form, .request-form {
   display: none;
 }
 .hidden {
   display: none !important;
 }
 
-.rent-form-title, .return-form-title, .request-form-title {
+.guest-form-title, .rent-form-title, .return-form-title, .request-form-title {
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
