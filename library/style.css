@@ -39,7 +39,7 @@ p {
 
 .stage {
   position: relative;
-  background: white;
+  /* background: white; */
   visibility: hidden;
 }
 
@@ -511,6 +511,10 @@ ul.dropdown li:hover {
 .slide--6 .slide__scroll-line {
   background: #D7CEC5;
 }
+.slide--6 {
+  background: #D7CEC5;
+}
+
 
 .slide-in {
   position: absolute;
@@ -802,4 +806,23 @@ ul.dropdown li:hover {
   padding: 20px;
   height: 480px;
   position: absolute;
+}
+.guest-form {
+  width: 100%;
+  font-size: 22px;
+  margin-left: 24px;
+  /* text-align: center; */
+}
+.guest-form .row {
+  width: 75%;
+  margin: 0 auto;
+}
+.guest-form input, .guest-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+.guest-form button {
+  font-family: "Cinzel", serif;
+  padding: 8px 16px;
 }
