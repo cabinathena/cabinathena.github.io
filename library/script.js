@@ -5,6 +5,8 @@ const snackbar = document.querySelector("#snackbar");
 const guestSubmitButton = document.querySelector("#guest-submit");
 const guestFirstName = document.querySelector("#guest-first-name");
 const guestLastName = document.querySelector("#guest-last-name");
+const guestCabin = document.querySelector("#guest-cabin");
+const guestDate = document.querySelector("#guest-date");
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollToPlugin);
@@ -464,12 +466,11 @@ let libWings = [
 window.onload = () => {
 
     menuButton.onclick = toggleNavBar;
+    guestDate.valueAsDate = new Date();
+    guestDate.min = new Date().toISOString().slice(0, -14);
     guestSubmitButton.onclick = () => {
         event.preventDefault();
-        scrollToIndex(4);
-        snackbar.innerHTML = `Welcome, ${guestLastName.value} ${guestFirstName.value}`;
-        snackbar.className = "show";
-        setTimeout(() => snackbar.className = snackbar.className.replace("show", ""), 3000);
+        addGuest();
     }
 
     init();
@@ -550,9 +551,28 @@ function initCarousel() {
         wrapAround: true,
         initialIndex: reviews.length - 1
     });
-    
+
     carousel.addEventListener('click', (e) => {
         e.preventDefault();
         e.stopPropagation();
     });
+}
+
+function addGuest() {
+    db.collection('library')
+        .doc('guestbook')
+        .update({
+            entries: firebase.firestore.FieldValue.arrayUnion({
+                firstName: guestFirstName.value,
+                lastName: guestLastName.value,
+                cabin: guestCabin.value,
+                date: guestDate.value
+            })
+        })
+        .then(() => {
+            scrollToIndex(4);
+            snackbar.innerHTML = `Welcome, ${guestLastName.value} ${guestFirstName.value}`;
+            snackbar.className = "show";
+            setTimeout(() => snackbar.className = snackbar.className.replace("show", ""), 3000);
+        });
 }

@@ -677,8 +677,8 @@ function getCookie(key) {
 // Wait till dom load to start the Shuffle js funtionality
 document.addEventListener('DOMContentLoaded', function () {
   window.book_list = new bookList(document.getElementById('grid'));
-  if (!getCookie("first-name")) {
-    isAllowCloseOverlay = false;
-    displayGuestForm();
-  }
+  // if (!getCookie("first-name")) {
+  //   isAllowCloseOverlay = false;
+  //   displayGuestForm();
+  // }
 });
