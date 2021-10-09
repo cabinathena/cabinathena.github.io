@@ -1,5 +1,10 @@
 const menuButton = document.querySelector(".nav-btn");
 const dropdown = document.querySelector(".dropdown");
+const snackbar = document.querySelector("#snackbar");
+
+const guestSubmitButton = document.querySelector("#guest-submit");
+const guestFirstName = document.querySelector("#guest-first-name");
+const guestLastName = document.querySelector("#guest-last-name");
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollToPlugin);
@@ -459,6 +464,13 @@ let libWings = [
 window.onload = () => {
 
     menuButton.onclick = toggleNavBar;
+    guestSubmitButton.onclick = () => {
+        event.preventDefault();
+        scrollToIndex(4);
+        snackbar.innerHTML = `Welcome, ${guestLastName.value} ${guestFirstName.value}`;
+        snackbar.className = "show";
+        setTimeout(() => snackbar.className = snackbar.className.replace("show", ""), 3000);
+    }
 
     init();
 
