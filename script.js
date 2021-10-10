@@ -33,6 +33,7 @@ function dumpToExcel(trainees) {
         username: 'Username',
         faceClaim: 'Face Claim',
         birthday: 'Birthday',
+        birthplace: 'Birthplace',
         hobby: 'Hobby',
         specialty: 'Specialty',
         funFact: 'Fun Facts',
@@ -41,7 +42,7 @@ function dumpToExcel(trainees) {
     };
     let withHeader = [header].concat(trainees);
     var worksheet = XLSX.utils.json_to_sheet(withHeader,
-        { header: ['id', 'fullName', 'username', 'faceClaim', 'birthday', 'hobby', 'specialty', 'funFact', 'skills', 'createdAt'], skipHeader: true }
+        { header: ['id', 'fullName', 'username', 'faceClaim', 'birthday', 'birthplace', 'hobby', 'specialty', 'funFact', 'skills', 'createdAt'], skipHeader: true }
     );
     workbook.Sheets["Rents"] = worksheet;
 
