@@ -570,7 +570,7 @@ function addGuest() {
             })
         })
         .then(() => {
-            // scrollToIndex(4);
+            scrollToIndex(4);
 
             $('.overlay').fadeIn();
             $('.overlay-wing-content').fadeIn();
