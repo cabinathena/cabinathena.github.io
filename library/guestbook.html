@@ -68,6 +68,7 @@
                     guestBook = doc.data().entries;
                     $('#guestbook-table').DataTable({
                         paging: false,
+                        ordering: false,
                         data: guestBook,
                         columns: [
                             { data: 'lastName' },
