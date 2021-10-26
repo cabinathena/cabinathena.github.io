@@ -570,34 +570,39 @@ function addGuest() {
             })
         })
         .then(() => {
-            scrollToIndex(4);
+            // scrollToIndex(4);
 
             $('.overlay').fadeIn();
             $('.overlay-wing-content').fadeIn();
             // select('.wing-img').src = libWings[i].img;
-            select('.wing-title').innerHTML = `<canvas id="card"></canvas>`;
-            let guestCard = document.querySelector("#card");
+            select('.wing-title').innerHTML = `<canvas id="card" class="canvas"></canvas>`;
+            let guestCard = select("#card");
             let context = guestCard.getContext("2d");
-            guestCard.width = 480;
-            guestCard.height = 480;
-            context.textAlign = "center";
-            let fontSize = 24;
-            let fontStyle = "Cinzel";
-            context.font = `bold ${fontSize}px ${fontStyle}`;
-            context.fillText(`${guestLastName.value} ${guestFirstName.value}`, guestCard.width / 2, 100);
 
+            const image = new Image();
+            image.src = "../assets/boarding-pass.jpg";
+            image.onload = () => {
+                guestCard.width = image.width;
+                guestCard.height = image.height;
+                context.drawImage(image, 0, 0, guestCard.width, guestCard.height);
+                context.textAlign = "left";
+                let fontSize = 24;
+                let fontStyle = "Arial";
+                context.font = `bold ${fontSize}px ${fontStyle}`;
+                context.fillText(`${guestLastName.value} ${guestFirstName.value}`, 100, 138);
+                context.fillText(`${guestDate.value}`, 100, 175);
 
-            select('.wing-desc').innerHTML = `
-            Please present this card to Athena Librarian (via DM Twitter) <br> before entering Book Section<br><br>
-            <a class="button" id="library-card" download="card.png">DOWNLOAD</a>
-            `;
+                select('.wing-desc').innerHTML = `
+                Please present this card to Athena Librarian (via DM Twitter) <br> before entering Book Section<br><br>
+                <a class="button" id="library-card" download="card.png">DOWNLOAD</a>
+                `;
 
-            let download = select("#library-card");
-            download.onclick = () => {
-                var url = guestCard.toDataURL("image/png");
-                download.href = url;
+                let download = select("#library-card");
+                download.onclick = () => {
+                    var url = guestCard.toDataURL("image/png");
+                    download.href = url;
+                }
             }
-
 
             snackbar.innerHTML = `Welcome, ${guestLastName.value} ${guestFirstName.value}`;
             snackbar.className = "show";
