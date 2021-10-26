@@ -772,6 +772,17 @@ ul.dropdown li:hover {
   transform: translate(-50%, -50%);
   border-radius: 10px;
 }
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	color: black;
+	background: rgb(239,239,239);
+	border: solid 1px rgb(118,118,118);
+	text-align: center;
+	text-decoration: none;
+	padding: .5em 2em .55em;
+}
 #review-button {
   cursor: pointer;
 }
