@@ -588,7 +588,7 @@ function addGuest() {
 
 
             select('.wing-desc').innerHTML = `
-            Please present this card to Athena Librarian before entering book section<br><br>
+            Please present this card to Athena Librarian (via DM Twitter) <br> before entering Book Section<br><br>
             <a class="button" id="library-card" download="card.png">DOWNLOAD</a>
             `;
 
